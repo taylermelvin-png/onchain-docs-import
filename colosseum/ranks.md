@@ -25,12 +25,11 @@ Each rank applies a **multiplier** to your base point earnings, on top of reduci
 
 ## Subtiers (1–4)
 
-Each rank is divided into **four subtiers** — Recruit 1 through Recruit 4, then Warrior 1, and so on. Subtiers represent your progression *within* a rank:
+Each rank is divided into **four subtiers** — Recruit 1 through Recruit 4, then Warrior 1, and so on. Subtiers are purely positional — they show how far you have progressed *within* a rank, and that's all:
 
 * You move from subtier 1 → 2 → 3 → 4 as your points accumulate.
 * When you complete subtier 4, your next points push you into the next rank's subtier 1.
-* The **swap fee is set at the rank level**, so all four subtiers within a rank pay the same fee rate.
-* Subtier progression unlocks visual badge upgrades and feeds your overall rank progression speed.
+* **Subtiers don't affect your swap fee or your point multiplier** — both are set at the rank level. Recruit 1 and Recruit 4 pay the same 0.15% fee and earn at the same multiplier.
 
 ***
 
