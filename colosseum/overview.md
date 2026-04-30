@@ -30,7 +30,7 @@ Your points multiplier increases with your rank — so the further you progress,
 | ------------------ | ----------------------------------------------------------------------------------------- |
 | **Seasons**        | Long-running campaigns (weeks to months) with a global prize pool                         |
 | **Sessions**       | Short weekly competitions with their own leaderboards and prizes                          |
-| **Ranks**          | Six tiers from Broken Shield to Diamond — each with higher point multipliers and cashback |
+| **Ranks**          | Six tiers from Recruit to Immortal — each with higher point multipliers and a lower swap fee (0.15% → 0.10%) |
 | **Quests**         | Daily, weekly, and one-time challenges that award bonus points and loot boxes             |
 | **Loot Boxes**     | Randomized reward drops earned through quest completion and trading milestones            |
 | **Factions**       | Team-based play — join a faction, pool points, earn a group multiplier bonus              |

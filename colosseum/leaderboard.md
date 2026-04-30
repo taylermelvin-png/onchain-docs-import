@@ -11,7 +11,7 @@ For each trader on the leaderboard, you can see:
 * **Rank position** — their current standing in the session.
 * **Points** — total points earned in the current session.
 * **Volume** — total trading volume in USD for the current session.
-* **Rank tier** — the trader's Colosseum rank badge (Broken Shield through Diamond).
+* **Rank tier** — the trader's Colosseum rank badge (Recruit through Immortal).
 * **Rank movement** — whether they have moved up, down, or held position since the last update.
 
 ***

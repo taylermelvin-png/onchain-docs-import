@@ -6,9 +6,22 @@ It is built and backed by Bitso, Latin America's largest licensed crypto exchang
 
 **Three reasons traders choose onchain.cc:**
 
-* **0.15% trading fees** — the lowest in the market. Axiom, GMGN, and Photon all charge 1%. The edge compounds.
+* **0.15% → 0.10% trading fees** — start at 0.15% (the lowest base rate in DeFi) and climb to 0.10% as your Colosseum rank grows. Axiom, GMGN, and Photon all charge 1%.
 * **Colosseum** — a live competitive trading arena with $300K+ in prize pools. Your P\&L becomes your ranking.
 * **Bitso-regulated infrastructure** — licensed, audited, and backed by a regulated exchange. Self-custody without flying blind.
+
+***
+
+## The Four Products
+
+onchain.cc gives you four distinct trading surfaces, all in one terminal:
+
+|                                          |                                                                                                                                |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Swap](swap/terminal-overview.md)        | Cross-chain spot trading across 17+ chains. Best-price routing via Carbium.                                                    |
+| [Perps](perps/overview.md)               | Perpetual futures with up to 40x leverage on majors. Powered by Hyperliquid.                                                   |
+| [Degen](degen/overview.md)               | Trade pre-graduated pump.fun tokens directly against the bonding curve. Solana-only.                                           |
+| [Discover](discover/degen-feed.md)       | Find what's moving — Trenches feed, first-caller intelligence, and KOL signals. Solana-only.                                   |
 
 ***
 
@@ -17,8 +30,8 @@ It is built and backed by Bitso, Latin America's largest licensed crypto exchang
 |                                                  |                                                                           |
 | ------------------------------------------------ | ------------------------------------------------------------------------- |
 | [Quick Start](getting-started/quick-start.md)    | Get your wallet connected and your first trade placed in under 5 minutes. |
-| [Trading Terminal](trading/terminal-overview.md) | Charts, slippage controls, and advanced execution.                        |
-| [Colosseum](colosseum/overview.md)               | Compete in live seasons, earn Carbium, and climb the leaderboard.         |
+| [Key Concepts](getting-started/key-concepts.md)  | Glossary of platform vocabulary — read this if anything is unclear later. |
+| [Colosseum](colosseum/overview.md)               | Compete in live seasons, earn rewards, and climb the leaderboard.         |
 
 ***
 

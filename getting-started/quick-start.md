@@ -40,7 +40,7 @@ Once connected, your wallet address is visible in the top navigation. Send funds
 
 You have two options:
 
-* **Degen Feed (Trenches)** — browse trending tokens, new launches, and community picks directly from the terminal's discovery feed. _Solana-only for now — see_ [_Degen Feed_](../token-discovery/degen-feed.md) _for scope._
+* **Degen Feed (Trenches)** — browse trending tokens, new launches, and community picks directly from the terminal's discovery feed. _Solana-only for now — see_ [_Degen Feed_](../discover/degen-feed.md) _for scope._
 * **Paste a contract address (CA)** — if you already know the token, paste its contract address into the search bar to pull up its chart and trading panel immediately. Works across all supported chains.
 
 Select the token, set your size, review slippage, and hit **Buy**.
@@ -57,4 +57,4 @@ Select the token, set your size, review slippage, and hit **Buy**.
 
 \[SCREENSHOT: Full platform overview after login — annotated with labels for Trading Terminal, Degen Feed, Portfolio View, and Colosseum entry point]
 
-Next up: [Key Concepts & Glossary](key-concepts.md) — or jump straight to [Trading Terminal](../trading/terminal-overview.md) to go deeper on execution.
+Next up: [Key Concepts & Glossary](key-concepts.md) — or jump straight to [Trading Terminal](../swap/terminal-overview.md) to go deeper on execution.

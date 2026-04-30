@@ -1,6 +1,6 @@
-# Trading Terminal Overview
+# Swap Terminal Overview
 
-onchain.cc is a cross-chain swap terminal built for traders who want fast execution, best-price routing, and full self-custody — without paying the inflated fees charged by most DeFi frontends. Trade across **17+ chains** from a single interface.
+The Swap product is onchain.cc's cross-chain spot trading terminal — built for traders who want fast execution, best-price routing, and full self-custody, without paying the inflated fees charged by most DeFi frontends. Trade across **17+ chains** from a single interface. (For pre-graduated pump.fun tokens, see [Degen](../degen/overview.md). For perpetual futures, see [Perps](../perps/overview.md).)
 
 ***
 
@@ -20,9 +20,9 @@ Trades are routed and submitted to the relevant chain with minimal latency. You 
 
 Every swap goes through Carbium — onchain.cc's internal DEX aggregator. Carbium splits and routes your order across DEX liquidity sources to get you the best available price. You don't configure anything; it works automatically on every trade.
 
-### 0.15% Platform Fee
+### Rank-Based Platform Fee (0.15% → 0.10%)
 
-onchain.cc charges 0.15% per trade — the lowest platform fee in DeFi. Axiom, GMGN, and Photon all charge around 0.75%. That difference compounds significantly over time.
+onchain.cc charges 0.15% per trade at the **Recruit** rank — the lowest base platform fee in DeFi. Each Colosseum rank reduces your swap fee by 0.01 percentage points, all the way down to **0.10% at Immortal**. See [Rank System](../colosseum/ranks.md) for the full schedule.
 
 ### Self-Custody
 

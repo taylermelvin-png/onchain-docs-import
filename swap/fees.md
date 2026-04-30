@@ -1,8 +1,8 @@
 # Fees
 
-## 0.15% — the lowest platform fee in DeFi
+## 0.15% → 0.10% — the lowest platform fee in DeFi
 
-onchain.cc charges a flat 0.15% on every trade. That's it. No tiers, no cashback theater, no hidden rebate structures that inflate the headline rate on the backend. What you see is what you pay.
+onchain.cc charges 0.15% on every trade at the **Recruit** rank — the lowest base fee in DeFi. As you climb Colosseum ranks, your fee drops by 0.01 percentage points per rank, down to **0.10% at Immortal**. No tokens to hold, no cashback theatre, no opt-in. What you see is what you pay, and your rank determines what you see.
 
 ***
 
@@ -19,13 +19,20 @@ Most DEX terminals charge around 0.75%. That's 5x more than onchain.cc per trade
 
 ***
 
-## No Cashback Theater
+## Rank-Based Fee Schedule
 
-Some platforms advertise token-based cashback or rebate programs to obscure their real fee structure. The net cost is still higher than 0.15%.
+| Rank | Swap Fee |
+| ---- | -------- |
+| Recruit (1–4) | 0.15% |
+| Warrior (1–4) | 0.14% |
+| Gladiator (1–4) | 0.13% |
+| Champion (1–4) | 0.12% |
+| Warlord (1–4) | 0.11% |
+| Immortal (1–4) | 0.10% |
 
-onchain.cc doesn't play that game. The fee is 0.15%, applied directly to your trade. There's nothing to opt into, nothing to calculate, and no tokens required to access the rate.
+Your rank applies automatically — there's nothing to opt into, no tokens to hold, no cashback theatre. See [Rank System](../colosseum/ranks.md) for how to rank up.
 
-> **Success:** What you see is what you pay.
+> **Success:** What you see is what you pay. Your rank reduces it.
 
 ***
 
@@ -48,5 +55,5 @@ Key points about gas fees:
 
 | Fee Type        | Amount                      | Paid To                     |
 | --------------- | --------------------------- | --------------------------- |
-| Platform fee    | 0.15% of trade value        | onchain.cc                  |
+| Platform fee    | 0.15% – 0.10% based on rank | onchain.cc                  |
 | Network gas fee | Variable (depends on chain) | The chain you're trading on |

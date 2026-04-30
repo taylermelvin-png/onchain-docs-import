@@ -7,12 +7,12 @@
 * [Quick Start Guide](getting-started/quick-start.md)
 * [Key Concepts & Glossary](getting-started/key-concepts.md)
 
-## Trading
+## Swap
 
-* [Trading Terminal Overview](trading/terminal-overview.md)
-* [How to Buy a Token](trading/how-to-buy.md)
-* [How to Sell a Token](trading/how-to-sell.md)
-* [Fees](trading/fees.md)
+* [Swap Terminal Overview](swap/terminal-overview.md)
+* [How to Buy a Token](swap/how-to-buy.md)
+* [How to Sell a Token](swap/how-to-sell.md)
+* [Fees](swap/fees.md)
 
 ## Perps
 
@@ -22,11 +22,17 @@
 * [Leverage & Margin](perps/leverage.md)
 * [Fees & Funding](perps/fees.md)
 
-## Token Discovery
+## Degen
 
-* [Degen Feed](token-discovery/degen-feed.md)
-* [Reading Token Signals](token-discovery/reading-signals.md)
-* [Derek Bot](token-discovery/derek-bot.md)
+* [Degen Overview](degen/overview.md)
+* [Pump.fun Bonding Curves](degen/bonding-curves.md)
+* [How to Buy a Pre-Graduated Token](degen/how-to-buy.md)
+
+## Discover
+
+* [Degen Feed (Trenches)](discover/degen-feed.md)
+* [Reading Token Signals](discover/reading-signals.md)
+* [Derek Bot](discover/derek-bot.md)
 
 ## Portfolio
 
