@@ -1,85 +1,59 @@
 # Leaderboard
 
-The leaderboard is the scoreboard. It shows where you rank against every other trader in the current session — in real time.
+The leaderboard is the scoreboard: where you rank against every other trader in the current session, live.
 
 ***
 
-## What the Leaderboard Shows
+## What It Shows
 
-For each trader on the leaderboard, you can see:
+For each trader on the session leaderboard:
 
-* **Rank position** — their current standing in the session.
-* **Points** — total points earned in the current session.
-* **Volume** — total trading volume in USD for the current session.
-* **Rank tier** — the trader's Colosseum rank badge (Recruit through Immortal).
-* **Rank movement** — whether they have moved up, down, or held position since the last update.
+* **Position** — current standing in the session
+* **Score** — points (or the session's stated metric) earned this session
+* **Volume** — trading volume for the session
+* **Rank badge** — their Colosseum rank (Recruit through Immortal)
+* **Movement** — up, down, or holding since the last update
 
-***
+Your own row is always highlighted, wherever you rank.
 
-## Session Leaderboard vs. Global Leaderboard
-
-| Leaderboard             | Scope                                                    | Resets                                                      |
-| ----------------------- | -------------------------------------------------------- | ----------------------------------------------------------- |
-| **Session Leaderboard** | Points and volume earned during the current session only | Resets at the start of each new session                     |
-| **Global Leaderboard**  | Lifetime points and rank accumulated across all sessions | Does not reset — reflects your full history on the platform |
-
-The session leaderboard determines prize distribution. Your position on it at the close of the session is what decides whether you win.
+<figure><img src="../.gitbook/assets/colosseum-leaderboard-1.png" alt=""><figcaption><p>The session leaderboard</p></figcaption></figure>
 
 ***
 
-## How Prize Distribution Works
+## Session vs. Global
 
-At the end of each session, the top traders on the session leaderboard receive a share of the session prize pool. Prizes are distributed to your onchain.cc wallet within 7 days of the session closing.
+| Leaderboard | Scope | Resets |
+| --- | --- | --- |
+| **Session** | Points earned during the current session only | Every session starts from zero |
+| **Global** | Lifetime points and rank across everything | Never — your full history |
 
-The prize pool is weighted toward the top — first place receives the largest share, with decreasing amounts through the prize zone. Positions outside the prize zone receive no session prize but still accumulate lifetime points toward rank progression.
-
-> **Info:** Your session leaderboard position is determined by points earned during the session — not by raw trading volume. Volume generates points, but rank multipliers, faction multipliers, quest completions, and Bonus Windows all affect how many points that volume translates into.
-
-***
-
-## How to Climb the Leaderboard
-
-### 1. Trade more volume
-
-Points are a function of volume. More trades and larger positions generate more base points.
-
-### 2. Increase your rank multiplier
-
-Higher rank = higher multiplier on every point you earn. Rank up by accumulating lifetime points across sessions.
-
-### 3. Join a faction
-
-Faction membership adds a multiplier on top of your rank multiplier. Active factions compound your earning rate significantly.
-
-### 4. Trade during Bonus Windows
-
-Time-limited Bonus Windows apply additional multipliers. Check the Colosseum dashboard before your trading sessions and plan around active windows.
-
-### 5. Complete quests
-
-Quest completions award bonus points that count directly toward your session leaderboard score. Daily and weekly quests are the most consistent source of bonus points during a session.
-
-### 6. Stack multipliers
-
-The maximum earning rate comes from combining all multipliers simultaneously: a high rank, active faction membership, an open Bonus Window, and a qualifying quest in progress.
+The **session leaderboard decides prizes**. Your position when the session closes is what pays.
 
 ***
 
-## Leaderboard Updates
+## How Prizes Pay Out
 
-The session leaderboard updates every **60 seconds** while a session is active. Refreshing the page or checking the Colosseum tab will always show your current position.
+At session close, the leaderboard is final and the prize pool is distributed across the prize zone (the paying positions) — weighted to the top, first place taking the largest share. Session rules state the exact structure, and some sessions pay in loot boxes rather than USDC.
 
-> **Warning:** Leaderboard positions near the prize cutoff can shift significantly in the final hours of a session. A strong final push — especially during a Bonus Window — can move you into the prize zone. Conversely, holding a position near the cutoff requires continued activity to maintain it.
+**Payouts follow about a week after the session ends** — a verification window runs before funds move to winners.
 
-***
-
-## Where to Find the Leaderboard
-
-1. Open onchain.cc and go to the **Colosseum** tab.
-2. The leaderboard is displayed on the main Colosseum dashboard.
-3. Your own position is highlighted automatically, regardless of where you rank.
-4. Use the toggle to switch between the Session Leaderboard and Global Leaderboard views.
+{% hint style="info" %}
+Standings near the prize cutoff often shift in the final hours of a session — positions aren't safe until the clock runs out.
+{% endhint %}
 
 ***
 
-\[SCREENSHOT: Active session leaderboard showing the top trader rows with rank positions, points, volume, rank tier badges, and movement indicators — with the current user's row highlighted]
+## How to Climb
+
+1. **Trade volume** — points are a function of volume, on every product.
+2. **Raise your rank** — a permanently higher boost on everything you earn.
+3. **Join an active faction** — the weekly faction boost stacks on top ([Factions](factions.md)).
+4. **Hit the Bonus Windows** — check the dashboard and plan sessions around them.
+5. **Clear your quests** — quest points build your rank, and a higher rank boosts the points every trade puts on the session board.
+6. **Stack it all** — rank + faction + window at once is how the top of the board earns.
+
+***
+
+## Where to Find It
+
+Open the **Colosseum** tab — the leaderboard is on the main dashboard, with a toggle between Session and Global views.

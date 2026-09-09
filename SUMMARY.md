@@ -5,14 +5,15 @@
 ## Getting Started
 
 * [Quick Start Guide](getting-started/quick-start.md)
+* [Funding Your Account](getting-started/funding.md)
+* [Wallets](getting-started/wallets.md)
 * [Key Concepts & Glossary](getting-started/key-concepts.md)
 
-## Swap
+## Spot
 
-* [Swap Terminal Overview](swap/terminal-overview.md)
-* [How to Buy a Token](swap/how-to-buy.md)
-* [How to Sell a Token](swap/how-to-sell.md)
-* [Fees](swap/fees.md)
+* [Spot Overview](spot/overview.md)
+* [Order Types](spot/order-types.md)
+* [Spot Fees](spot/fees.md)
 
 ## Perps
 
@@ -22,21 +23,31 @@
 * [Leverage & Margin](perps/leverage.md)
 * [Fees & Funding](perps/fees.md)
 
-## Degen
+## Trenches
 
-* [Degen Overview](degen/overview.md)
-* [Pump.fun Bonding Curves](degen/bonding-curves.md)
-* [How to Buy a Pre-Graduated Token](degen/how-to-buy.md)
+* [Trenches Overview](trenches/overview.md)
+* [Finding Tokens](trenches/discovery.md)
+* [Launchpads & Graduation](trenches/launchpads.md)
+* [Trading on Trenches](trenches/trading.md)
+* [Wallet Tracker](trenches/tracker.md)
 
-## Discover
+## Predictions
 
-* [Degen Feed (Trenches)](discover/degen-feed.md)
-* [Reading Token Signals](discover/reading-signals.md)
-* [Derek Bot](discover/derek-bot.md)
+* [Predictions Overview](predictions/overview.md)
+* [How to Trade Predictions](predictions/how-to-trade.md)
+* [Positions, Resolution & Claiming](predictions/positions-and-claiming.md)
+* [Up/Down Markets](predictions/updown.md)
 
-## Portfolio
+## Swap
 
-* [Portfolio View](portfolio/portfolio-view.md)
+* [Cross-Chain Swap](swap/overview.md)
+* [Swap Fees](swap/fees.md)
+
+## Portfolio & Tools
+
+* [Portfolio](portfolio/portfolio-view.md)
+* [Dashboard](portfolio/dashboard.md)
+* [Charts](portfolio/charts.md)
 
 ## Colosseum
 
@@ -45,7 +56,8 @@
 * [Rank System](colosseum/ranks.md)
 * [Quests](colosseum/quests.md)
 * [Loot Boxes](colosseum/loot-boxes.md)
-* [Factions & Vaults](colosseum/factions-vaults.md)
+* [Factions](colosseum/factions.md)
+* [Vaults](colosseum/vaults.md)
 * [Social Scoring](colosseum/social-scoring.md)
 * [Leaderboard](colosseum/leaderboard.md)
 

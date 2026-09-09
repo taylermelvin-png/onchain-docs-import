@@ -6,56 +6,45 @@ Colosseum runs on two overlapping competition clocks — a long game and a short
 
 ## Seasons
 
-A **Season** is the long-running campaign that frames everything else. Seasons run for weeks to months and carry a global prize pool — the headline number you see when you enter Colosseum.
+A **Season** is the long-running campaign that frames everything else. Seasons run for weeks to months and carry a global prize pool — the headline number on the Colosseum dashboard.
 
-* Each season has a start date, an end date, and a total prize pool.
-* Your rank progression is tied to the season: the points you accumulate determine your tier.
-* Season prizes are distributed across sessions and through end-of-season leaderboard rankings.
-* When a season ends, prize pools are settled and a new season opens with a fresh campaign.
-
-**Season 1** features a **$300,000+ prize pool** distributed across all sessions and season-end rankings.
+* Each season has announced dates and a total prize pool.
+* Season-wide **boosts** can apply while a season is active — including boosts targeted at specific products or events.
+* When a season ends, prizes settle and a new season opens with a fresh campaign.
 
 ***
 
 ## Sessions
 
-A **Session** is the short-term competition that runs inside a season — typically weekly. Each session has:
+A **Session** is the short competition that runs inside a season — **typically weekly**, with its exact start and end announced on the dashboard. Each session has:
 
-* Its own **leaderboard** tracking points and volume for that window only.
-* Its own **prize pool** distributed to the top traders at the end of the session.
-* A **start and end time** — once a session closes, that leaderboard is locked and prizes are calculated.
+* Its own **leaderboard**, scored from zero — points earned during that window only.
+* Its own **prize pool** and payout structure.
+* A defined **scoring metric** — most sessions rank by points, but sessions can also rank by PnL, return, or trade count, and some are scoped to one product (a perps-only session, a Trenches-only session). The session card always states its rules.
+* Some sessions run in **rank brackets**, so you compete against traders at a similar level.
 
-Sessions are the main competitive unit. If you want to win USDC this week, the session leaderboard is what you are climbing.
+When a session closes, the leaderboard is final and prizes are calculated. **Payouts follow about a week after the session ends** — a verification window before funds move. See [Leaderboard](leaderboard.md).
 
-> **Info:** A Season contains multiple Sessions. Your lifetime rank accumulates across all sessions in a season — but each session leaderboard resets at the start of a new session.
+{% hint style="info" %}
+Sessions never touch your lifetime points — rank progress carries across every session and season you play.
+{% endhint %}
 
 ***
 
 ## Bonus Windows
 
-Inside a session, the Colosseum team activates **Bonus Windows** — time-limited multiplier events that spike your point earnings for a short period.
-
-Examples:
+Inside a season, the Colosseum team activates **Bonus Windows** — time-limited events that boost point earnings for eligible trades. Examples:
 
 * "2x points for the next 4 hours"
-* "3x points on SOL pairs until midnight UTC"
+* "Boosted points on prediction trades this weekend"
+* Faction-only or campaign-specific boosts
 
-Bonus Windows are announced in the Colosseum dashboard and in the official Discord. When one is active, a timer and multiplier badge appear on the interface. Trading during a Bonus Window is the fastest way to climb the leaderboard in a session.
-
-> **Warning:** Bonus Windows are time-limited. Once the timer expires, the multiplier ends — points earned after the window return to your base rate.
-
-***
-
-## How to Know What Is Active
-
-1. Open onchain.cc and navigate to the **Colosseum** tab.
-2. The dashboard shows:
-   * The active season name and total prize pool.
-   * The current session number, start time, and end time with a live countdown.
-   * Any active Bonus Window with a separate countdown.
-
-Check the dashboard before each trading session — knowing when a Bonus Window is approaching lets you plan your activity around it.
+Bonus Windows are announced on the Colosseum dashboard and in the official Discord, with a countdown while active. When more than one boost applies to a trade, the boosts **add together**. Trading during a Bonus Window is the fastest way to climb a session leaderboard.
 
 ***
 
-\[SCREENSHOT: Active season UI showing the season name, session countdown timer, prize pool amount, and any active Bonus Window indicator]
+## How to know what's active
+
+Open the **Colosseum** tab. The dashboard shows the active season and prize pool, the current session with its countdown and rules, any live vault campaign, and any Bonus Window in effect. Check it before a trading session — knowing when a boost is coming lets you plan around it.
+
+<figure><img src="../.gitbook/assets/colosseum-seasons-sessions-1.png" alt=""><figcaption><p>Season, session, and Bonus Window status</p></figcaption></figure>

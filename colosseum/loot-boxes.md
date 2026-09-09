@@ -1,57 +1,41 @@
 # Loot Boxes
 
-Loot boxes are randomized reward drops you earn by completing quests and hitting trading milestones. Each one contains a prize — open it to find out what you got.
+Loot boxes are randomized reward drops earned through quests, milestones, and special events. Every box contains a prize — **points or USDC** — rolled at the moment you open it.
 
 ***
 
 ## Rarity Tiers
 
-There are three loot box rarities. Higher rarity means higher expected reward value.
+Four rarities, in ascending value:
 
-| Rarity     | Drop Source                                                 | Reward Value                                     |
-| ---------- | ----------------------------------------------------------- | ------------------------------------------------ |
-| **Common** | Frequently awarded from daily quests and basic milestones   | Standard bonus points and XP                     |
-| **Rare**   | Awarded from weekly quests and mid-tier milestones          | Increased bonus points, XP, and seasonal rewards |
-| **Epic**   | Awarded from high-value quests and major trading milestones | Highest bonus points, exclusive seasonal rewards |
+| Rarity | Typical source | What's inside |
+| --- | --- | --- |
+| **Common** | Daily quests, basic milestones | Smaller point drops; occasional small USDC prizes |
+| **Rare** | Weekly quests, mid-tier milestones | Bigger point drops; better USDC odds |
+| **Epic** | High-value quests, major milestones | Large point drops; USDC prizes are common |
+| **Legendary** | Exceptional events and rewards | The largest point and USDC prizes on the platform |
 
-***
-
-## What You Can Find Inside
-
-Loot box contents vary by rarity, but may include:
-
-* **Bonus points** — added directly to your lifetime total and session score.
-* **XP** — contributes to rank progression.
-* **Exclusive seasonal rewards** — limited items and bonuses only available during the current season.
-
-The exact contents of any loot box are randomized at the moment you open it. Rarity affects the pool of possible rewards, not a fixed payout.
+Higher rarity means better odds of USDC and bigger prizes on both sides of the roll. The exact contents are randomized when you open the box.
 
 ***
 
-## How to Earn Loot Boxes
+## How to Earn Them
 
-* Complete **daily quests** — the primary source of Common loot boxes.
-* Complete **weekly quests** — awards Rare and occasionally Epic loot boxes.
-* Hit **trading milestones** — one-time achievement quests unlock specific loot box drops.
-* Participate in **special events** — Bonus Windows and vault campaigns sometimes award bonus loot boxes.
-
-***
-
-## How to Open a Loot Box
-
-1. Open onchain.cc and go to the **Colosseum** tab.
-2. Select **Inventory**.
-3. Your unopened loot boxes are listed by rarity.
-4. Click on a loot box to open it.
-5. The opening animation plays and reveals your reward.
-6. The reward is automatically applied to your account — no further action needed.
-
-> **Info:** Each loot box can only be opened once. The opening process is irreversible — once you click to open, the reward is assigned and the box is consumed.
+* **Daily quests** — the primary source of Common boxes
+* **Weekly quests** — Rare and occasionally better
+* **Milestones** — one-time achievements unlock specific drops
+* **Events** — Bonus Windows, vault campaigns, and session prizes sometimes pay in loot boxes
 
 ***
 
-> **Warning:** Loot boxes do not expire, but rewards tied to the current season (exclusive seasonal items) may become unavailable after the season ends. Opening your boxes during an active season ensures you receive the full reward pool.
+## Opening and Claiming
 
-***
+1. Open the **Colosseum** tab → **Inventory**.
+2. Your unopened boxes are listed by rarity. Click one to open it — the reveal shows your prize.
+3. **Claim the prize.** Every reward — points or USDC — has a claim step after the reveal. Points land in your total on claim; USDC payouts are queued and sent to your wallet.
 
-\[SCREENSHOT: Loot box inventory showing Common, Rare, and Epic boxes with quantity counts, and the loot box opening animation revealing a reward]
+<figure><img src="../.gitbook/assets/colosseum-loot-boxes-3.png" alt=""><figcaption><p>Opening a box and claiming the reward</p></figcaption></figure>
+
+{% hint style="info" %}
+Each box opens exactly once — the roll is final the moment you open it. Boxes don't expire, but seasonal reward pools can rotate, so opening during the active season guarantees the current pool.
+{% endhint %}

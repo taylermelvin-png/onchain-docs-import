@@ -8,39 +8,45 @@ Answers to the most common questions about onchain.cc.
 
 ### Is onchain.cc safe to use?
 
-Yes. onchain.cc is built and backed by Bitso — Latin America's largest licensed crypto exchange — which means it operates under institutional-grade compliance standards. The platform is self-custodial, meaning you always control your own wallet and private keys. onchain.cc never holds your funds, never has access to your wallet, and cannot move your assets on your behalf.
+onchain.cc is built and backed by Bitso — Latin America's largest licensed crypto exchange — and is fully self-custodial: you always control your own wallets and private keys, and onchain.cc never holds your funds or can move your assets on your behalf. As with all of crypto, the risk that remains is the market itself — trade accordingly.
 
-### What wallet do I need to get started?
+### How do I sign in? Do I need a wallet?
 
-onchain.cc supports both Solana and EVM wallets. You can connect with Solana wallets (Phantom, Backpack, Solflare) or EVM wallets (MetaMask, Rabby, or any WalletConnect-compatible app) depending on which chain you want to trade on. You can also sign in with an email address or social login — onchain.cc uses Privy as its authentication layer, which creates a non-custodial embedded wallet for you automatically. No matter which method you choose, you remain in full control of your assets.
+You can sign in three ways: **Google**, **email** (with a 6-digit code), or by connecting an existing **Solana or EVM wallet**. Signing in with Google or email creates embedded self-custody wallets for you — one Solana, one EVM — managed non-custodially through Privy. You can view them, and export their private keys, on the Wallets page at any time.
 
 ### Is onchain.cc available in my country?
 
-onchain.cc is available in most countries, but access may be restricted in certain jurisdictions based on local regulations. The platform checks your location at login. If access is restricted in your region, you will see a notice at that point. Check [onchain.cc](https://onchain.cc) directly for the most current availability information.
+The terminal is available in most countries, but certain products are restricted in certain jurisdictions — you'll see a notice on the affected product if that applies to you, and our [Terms of Use](https://onchain.cc/terms/#restricted) list the details. Prediction markets have their own jurisdiction rules; in some regions you can browse markets but not place orders.
 
 ***
 
 ## Trading
 
-### What are the fees on onchain.cc?
+### What are the fees?
 
-onchain.cc charges a flat **0.15% platform fee** on every trade. This is deducted from the output amount — there are no hidden charges, no tiered structures, and no tokens required to access the rate. In addition to the platform fee, every on-chain transaction requires a small network gas fee paid to the chain you're trading on, not to onchain.cc. Gas fees vary by chain — typically fractions of a cent on Solana and most L2s, more on Ethereum mainnet.
+It depends on the product:
 
-### Do I need a chain's native token to trade on it?
+* **Swap and Trenches** — 0.15% at the base rank, falling to **0.10%** as your Colosseum rank climbs. Among the lowest terminal fees in the market. Trenches trades also carry the launchpad's own protocol fee, included in the quoted price.
+* **Spot and Perps** — Hyperliquid's volume-tiered maker/taker fee plus a small Onchain service fee, always shown combined in the order panel before you confirm.
+* **Predictions** — no additional onchain.cc fee is currently charged on orders.
 
-Yes. Each chain charges its own gas fee, paid in that chain's native token (SOL on Solana, ETH on Ethereum, etc.) regardless of which tokens you're trading. Even if you're swapping USDC for another token, you need a small balance of the chain's native token in your wallet to pay for the transaction. As a rule of thumb on Solana, keep at least 0.05 SOL on hand — without it, your transactions will fail. Equivalent buffers apply on other chains.
+Network gas applies to on-chain trades (Swap/Trenches) and is sponsored on most EVM chains.
+
+### Do I need a chain's native token to trade?
+
+For **Swap and Trenches**: on Solana, Ethereum, and BNB, yes — keep a small native-token balance for gas or transactions will fail (on Solana, a few thousandths of a SOL covers a trade). On the other supported EVM chains gas is sponsored. **Spot, Perps, and Predictions** trade from funded product balances, so orders there don't need gas from your wallet.
 
 ### What is a contract address (CA)?
 
-A contract address (CA) is the unique on-chain identifier for a specific token on its native chain. Every token has one, and pasting it into the onchain.cc search bar is the fastest way to pull up that token's chart and trading panel directly — works across all supported chains. You can find a token's CA on sites like BirdEye, GeckoTerminal, Etherscan, or by asking in trading communities. Always verify the CA (and the chain) before trading to ensure you are buying the correct token.
+The unique on-chain identifier for a token. Pasting a CA into the search bar is the fastest and safest way to pull up exactly the token you mean — names and tickers can be duplicated; contract addresses can't. Always verify the CA before trading.
 
 ### Why did my transaction fail?
 
-The two most common causes are insufficient native-token balance for gas fees, or slippage set too low. If your gas balance on the chain you're trading on is too low to cover the network fee, the transaction will fail before it executes. If price moved between the time you submitted and the time the transaction was processed, and the movement exceeded your slippage tolerance, the transaction is rejected to protect you from a bad fill. Try increasing your slippage tolerance slightly, or top up your native-token balance (e.g., \~0.05 SOL on Solana) and resubmit.
+The two most common causes on on-chain trades: insufficient native-token balance for gas, or slippage set below what the market moved. Failed transactions revert — you keep your funds (minus network gas). Top up gas or raise slippage slightly and retry. On launch-moment Trenches trades, slippage below ~10% frequently fails by design — fast curves move faster than your transaction lands.
 
 ### What happens to my funds if I close the app?
 
-Nothing. onchain.cc is a self-custody platform — your funds live in your wallet on-chain, not on onchain.cc's servers. Closing the app, clearing your browser, or losing internet access does not affect your wallet or your positions. When you return, connect your wallet again and everything will be exactly as you left it.
+Nothing. Your funds live in your wallets and product balances on-chain, not on onchain.cc's servers. Sign back in and everything is where you left it.
 
 ***
 
@@ -48,15 +54,23 @@ Nothing. onchain.cc is a self-custody platform — your funds live in your walle
 
 ### How do I join Colosseum?
 
-You are enrolled automatically when you make your first trade on onchain.cc. There is no separate sign-up, no application, and no minimum trade size. Your points, rank, and quest progress start accumulating from your first swap. Head to the Colosseum section of the terminal to see your current rank, active quests, and session leaderboard position.
+You already have. Enrollment is automatic when you create an account, and your first trade starts earning points. Head to the Colosseum tab to see your rank, quests, and leaderboard position.
 
-### What is the difference between a Session and a Season?
+### What's the difference between a Season and a Session?
 
-A **Season** is a long-running campaign (typically several weeks to months) with a large overall prize pool. A **Session** is a shorter weekly competition — usually 4 days — that takes place inside the Season. Each Session has its own leaderboard and its own prize pool. Winning sessions advances your standing in the Season, and your rank carries forward through the whole Season.
+A **Season** is the long campaign (weeks to months) with the headline prize pool. A **Session** is a shorter competition inside it — typically weekly — with its own leaderboard and prizes, scored from zero. Your lifetime rank carries across all of them.
 
-### How do I earn more points in Colosseum?
+### How do I earn points faster?
 
-Points are earned primarily through trading volume. Your rank determines a points multiplier — higher ranks multiply the points you earn per dollar traded. To accelerate your progress, complete daily and weekly quests (which award bonus points and loot boxes), post about onchain.cc on X to earn Social Scoring points, and join a Faction for a group multiplier bonus. The more consistently you trade and complete quests, the faster your rank climbs.
+Points come from trading volume across every product, scaled by your boosts. The levers: rank up (permanent boost), join an active faction (weekly boost for top factions), trade during Bonus Windows, and clear daily and weekly quests. All boosts stack. See [Rank System](../colosseum/ranks.md).
+
+### When do session prizes arrive?
+
+Payouts follow **about a week after the session ends** — a verification window runs first, then prizes are distributed.
+
+### How do referrals work?
+
+Every account has a referral link — find your code in the Colosseum section, and it's attached automatically when you share PnL cards to X. Traders who join through your link and trade earn you referral rewards, tracked through referral quests.
 
 ***
 
@@ -64,4 +78,4 @@ Points are earned primarily through trading volume. Your rank determines a point
 
 ### How do I contact support?
 
-The primary support channel is the official onchain.cc Discord server. Join via the link at [onchain.cc](https://onchain.cc) and head to the help channel — the community and support team are active around the clock. For announcements and platform updates, follow the official X/Twitter account. See the [Support & Community](support.md) page for official links.
+**Discord** is the primary channel — join via the link at [onchain.cc](https://onchain.cc) and head to the help channels. In the terminal, **Get support** in the menu opens live chat. For announcements, follow [@Onchaincc](https://x.com/Onchaincc) on X. See [Support & Community](support.md).

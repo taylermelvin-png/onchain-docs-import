@@ -1,81 +1,48 @@
 # Quests
 
-Quests are structured challenges that reward you with bonus points, loot boxes, and XP for doing things you would be doing on the platform anyway. They are the fastest way to accelerate your rank progression and earn loot box drops on top of your trading rewards.
+Quests are structured challenges that reward you with bonus points, boosts, and loot boxes for doing things you'd be doing on the terminal anyway. They are the fastest way to accelerate rank progression on top of your trading.
 
 ***
 
-## Quest Types
+## Quest Schedules
 
-| Type                    | Cadence                      | Description                                                                             |
-| ----------------------- | ---------------------------- | --------------------------------------------------------------------------------------- |
-| **Daily**               | Resets every 24 hours        | Short tasks you can complete in a single trading session                                |
-| **Weekly**              | Resets with each session     | Larger goals that reward sustained activity across the week                             |
-| **One-Time Milestones** | Complete once, never expires | Platform exploration and achievement targets — complete them once for permanent rewards |
+| Type | Cadence | Description |
+| --- | --- | --- |
+| **Daily** | Resets every day (00:00 UTC) | Short tasks you can complete in a single trading session |
+| **Weekly** | Resets Mondays (00:00 UTC) | Larger goals rewarding sustained activity across the week |
+| **One-Time** | Complete once | Exploration and achievement milestones — claimable for as long as the quest is live |
 
-> **Info:** Daily and weekly quests reset on a schedule. If you do not complete them in time, progress resets. One-time milestones never expire and always count.
-
-***
-
-## Quest Categories
-
-### Trading
-
-Rewards based on your activity on the terminal.
-
-* Hit volume targets (e.g., trade $1,000 in a single day)
-* Achieve P\&L milestones (e.g., close a position in profit)
-* Execute a number of trades within a window
-
-### Social
-
-Rewards for spreading the word about onchain.cc.
-
-* Post about onchain.cc on X (Twitter) — scored automatically by the social scoring system
-* Share a referral link and have it clicked
-
-### Referral
-
-Rewards for growing the community.
-
-* Invite friends using your personal referral link
-* Earn rewards when your referred users complete their first trade and continue trading
-
-### Achievement
-
-Rewards for exploring the platform.
-
-* Connect a wallet
-* Complete your first trade
-* Open your first loot box
-* Reach a new rank tier
-* Join a faction
-* Contribute to a vault
+{% hint style="warning" %}
+The reset wipes everything on daily and weekly quests — progress **and completed-but-unclaimed rewards**. Claim before the reset (daily at 00:00 UTC, weekly on Monday 00:00 UTC) or the reward is gone.
+{% endhint %}
 
 ***
 
-## How to Find and Track Quests
+## What Quests Cover
 
-1. Open onchain.cc and go to the **Colosseum** tab.
-2. Select the **Quests** panel.
-3. Quests are grouped by type — use the tabs to switch between Daily, Weekly, and Milestones.
-4. Each quest card shows:
-   * The objective and reward.
-   * A progress bar showing how close you are to completion.
-   * The time remaining (for time-limited quests).
-5. Completed quests show a claim button — tap it to collect your reward.
-
-> **Warning:** You must manually claim quest rewards after completing them. Unclaimed rewards do not expire, but it is good practice to claim them regularly so your loot box inventory stays current.
+* **Trading** — volume targets, trade counts, PnL milestones, across spot, perps, Trenches, and predictions (some quests are product-specific)
+* **Social** — posting about onchain.cc on X, scored by the [Social Scoring](social-scoring.md) system
+* **Referrals** — inviting traders who go on to trade
+* **Achievements** — first trade, first deposit, opening a loot box, reaching a rank, joining a faction
+* **Factions** — collective goals where your whole faction's activity counts toward one target
+* **Streaks** — daily-login and consistency rewards
 
 ***
 
-## Quest Rewards
+## Rewards
 
-| Reward Type    | What it does                                                            |
-| -------------- | ----------------------------------------------------------------------- |
-| **Points**     | Counts toward your lifetime total and current session leaderboard score |
-| **Loot Boxes** | Randomized reward drops — see [Loot Boxes](loot-boxes.md) for details   |
-| **XP**         | Contributes to rank progression alongside trade-based points            |
+| Reward | What it does |
+| --- | --- |
+| **Points** | Count toward your lifetime total — building your rank and its permanent boost |
+| **Loot Boxes** | Reward drops — see [Loot Boxes](loot-boxes.md) |
+| **Boosts** | Temporary points multipliers, and other time-limited perks |
 
 ***
 
-\[SCREENSHOT: Quest list UI showing the Daily and Weekly tabs, individual quest cards with progress bars, and a completed quest with an active claim button]
+## Finding and Claiming Quests
+
+1. Open the **Colosseum** tab and select **Quests**.
+2. Quests are grouped by schedule — each card shows the objective, the reward, a progress bar, and time remaining.
+3. When a quest completes, **claim it** from the card. Most rewards are claimed manually; some quests auto-claim on completion. Make claiming a habit — daily and weekly rewards are lost at the reset if left unclaimed.
+
+<figure><img src="../.gitbook/assets/colosseum-quests-1.png" alt=""><figcaption><p>The quests panel</p></figcaption></figure>

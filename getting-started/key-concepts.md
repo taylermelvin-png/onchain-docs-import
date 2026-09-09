@@ -1,42 +1,77 @@
 # Key Concepts & Glossary
 
-onchain.cc has its own vocabulary — some of it is standard crypto/DeFi terminology, some of it is specific to the platform. This page covers both so you are not left guessing mid-trade or mid-season.
+onchain.cc has its own vocabulary — some of it standard crypto terminology, some of it specific to the terminal. This page covers both.
 
 ***
 
-## Glossary
+## Products
 
-| Term             | Definition                                                                                                                                                                                                                                                              |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **CA**           | Contract Address. The unique on-chain identifier for a token on its native chain. You can paste a CA directly into the search bar to pull up any token's trading page instantly, even if it is not listed or trending. Works across all supported chains.               |
-| **Self-custody** | You hold your own private keys. No exchange, platform, or third party can access, freeze, or move your funds. onchain.cc is fully self-custody — your wallet, your assets.                                                                                              |
-| **DEX**          | Decentralized Exchange. A protocol that lets users trade tokens directly from their wallet without depositing funds to a centralized intermediary. Trades settle on-chain via smart contracts.                                                                          |
-| **Wallet**       | A software application that stores your private keys and lets you sign transactions. onchain.cc supports Solana wallets (Phantom, Solflare, Backpack) and EVM wallets (MetaMask, Rabby, WalletConnect-compatible apps). You connect your wallet to onchain.cc to trade. |
-| **Privy**        | The authentication and wallet infrastructure layer that powers sign-in on onchain.cc. Privy supports wallet connect, email login, and social login, and handles key management in a non-custodial way.                                                                  |
-| **Colosseum**    | onchain.cc's competitive trading arena. Traders compete across live seasons with real prize pools ($300K+ distributed to date). Your performance drives your ranking.                                                                                                   |
-| **Session**      | A defined competition window within a Colosseum Season. Sessions have a fixed start and end time. Your P\&L and activity during a session contribute to your seasonal ranking.                                                                                          |
-| **Season**       | A full competitive cycle in Colosseum, made up of multiple Sessions. At the end of a Season, prizes are distributed based on final standings.                                                                                                                           |
-| **Degen Feed**   | The token discovery feed inside onchain.cc, also referred to as **Trenches**. It surfaces trending tokens, new launches, and community-highlighted plays in real time. _Currently Solana-only — the rest of the platform is cross-chain._                               |
-| **Derek Bot**    | onchain.cc's first-caller intelligence tool. Derek Bot surfaces tokens that are being called by high-signal wallets and KOLs before they go mainstream, giving you an edge on early entries.                                                                            |
-| **Carbium**      | onchain.cc's in-platform reward currency. You earn Carbium through trading activity and competition performance. Carbium is used within the platform ecosystem for rewards, boosts, and Faction mechanics.                                                              |
-| **Loot Box**     | A reward container you can earn through platform activity. Loot Boxes contain Carbium, prizes, or other in-platform rewards.                                                                                                                                            |
-| **Faction**      | A team structure within Colosseum. Traders can join or form Factions to compete collectively, share strategies, and earn group rewards.                                                                                                                                 |
-| **Vault**        | A secure rewards holding area within the platform. Earned prizes and Carbium may be held in your Vault until claimed or deployed.                                                                                                                                       |
-| **First-caller** | A wallet or account that identifies and shares a token trade before significant price movement occurs. First-caller status is a key signal in Derek Bot and is tracked across the platform.                                                                             |
-| **KOL**          | Key Opinion Leader. A trader, influencer, or analyst with a proven track record of early or high-conviction calls. KOL wallet activity is one of the signals Derek Bot monitors.                                                                                        |
-| **Gas fee**      | The small fee paid to the network to process every transaction. Paid in the chain's native token (SOL on Solana, ETH on Ethereum, etc.). Keep a small buffer of the native token on whichever chain you're trading on to cover gas.                                     |
-| **Slippage**     | The difference between the price you expect when placing a trade and the price you actually receive when it executes. Higher slippage tolerance means your trade is more likely to fill during volatile conditions, but at a potentially worse price.                   |
-| **Swap**         | onchain.cc's spot trading product — cross-chain swaps across 17+ chains, routed through Carbium. For established (post-graduated) tokens.                                                                                                                                |
-| **Perps**        | onchain.cc's perpetual futures product, powered by Hyperliquid. Up to 40x leverage on majors. Uses a separate USDC perps balance funded via the **Fund Perps** button.                                                                                                  |
-| **Degen**        | onchain.cc's product for trading **pre-graduated** pump.fun tokens against the bonding curve. Solana-only. Distinct from Swap (which handles post-graduation tokens).                                                                                                   |
-| **Discover**     | onchain.cc's collection of token-discovery surfaces — Degen Feed (Trenches), Derek Bot, and reading-signals primers. Solana-only.                                                                                                                                       |
-| **Bonding curve**| The pump.fun pricing model for pre-graduated tokens. Buys move the price up the curve; sells move it back down. The curve closes when the token graduates to Raydium at ~$69k market cap.                                                                              |
-| **Graduation**   | The point at which a pump.fun token's market cap crosses the threshold (~$69k) and pump.fun automatically migrates its liquidity to Raydium. After graduation the token trades like any other Solana token via Swap.                                                  |
-| **Rank**         | Your Colosseum standing — Recruit → Warrior → Gladiator → Champion → Warlord → Immortal, each with subtiers 1–4. Rank determines your swap fee (0.15% → 0.10%) and your point-earning multiplier.                                                                       |
+| Term | Definition |
+| --- | --- |
+| **Spot** | The order-book spot trading product, powered by Hyperliquid. A deep universe of USDC pairs with market, limit, and TWAP orders. Shares one USDC balance with Perps. |
+| **Perps** | Perpetual futures, powered by Hyperliquid. Go long or short with leverage; no expiry. Uses the shared Perps/Spot balance. |
+| **Trenches** | The token-launch product. A live scanner and trading surface for new Solana tokens across the PumpFun, LaunchLab, and Meteora launchpads — from first block to graduation and beyond. |
+| **Predictions** | Prediction markets powered by Polymarket. Buy Yes or No shares on real-world events; winning shares settle at $1. |
+| **Swap** | Cross-chain token swaps across 12 supported chains, with automatic best-price routing. |
+| **Portfolio** | Your consolidated view: wallet holdings, Spot, Perps, and Predictions balances, positions, and PnL. |
+| **Dashboard** | Your customizable home screen — build it from 30+ widgets, save up to three layouts, share and import boards. |
+| **Colosseum** | The competitive layer. Trading earns points; points build rank and standing on prize-pool leaderboards. |
 
 ***
 
-> **Info:** New terms get added as the platform evolves. If you see something in the UI that is not covered here, check the [Colosseum docs](../colosseum/overview.md) or the [Derek Bot docs](../discover/derek-bot.md) for feature-specific terminology.
+## Trading terms
+
+| Term | Definition |
+| --- | --- |
+| **CA** | Contract Address — the unique on-chain identifier for a token. Paste a CA into the search bar to pull up any token instantly. |
+| **Self-custody** | You hold your own private keys. No exchange or third party can access, freeze, or move your funds. onchain.cc is fully self-custody. |
+| **Privy** | The authentication and wallet infrastructure behind sign-in. Supports Google, email, and wallet login, and manages embedded wallets non-custodially. |
+| **Embedded wallet** | The self-custody Solana and EVM wallets attached to your account when you sign in with Google or email. View them — and export their keys — on the Wallets page. |
+| **Carbium** | The Solana routing engine behind Swap. It splits and routes orders across DEX liquidity to get the best available price. |
+| **Slippage** | The difference between the price you expect and the price you get at execution. Your slippage tolerance is the maximum move you'll accept before the trade reverts. |
+| **MEV protection** | Routing safeguards against sandwich attacks on Solana swaps. On by default. |
+| **Gas fee** | The network's fee for processing a transaction, paid in the chain's native token. Sponsored on most supported EVM chains. |
+| **Maker / Taker** | On order-book products: a maker order rests on the book and adds liquidity; a taker order fills immediately against it. Takers pay slightly higher fees. |
+| **TWAP** | Time-Weighted Average Price — an order type that splits a large order into small slices over a chosen duration to reduce market impact. |
+| **Funding rate** | On perps: the hourly payment exchanged between longs and shorts that keeps the perp price anchored to the underlying. |
+| **Liquidation** | The automatic close of a leveraged position when its margin can no longer support it. |
+
+***
+
+## Trenches terms
+
+| Term | Definition |
+| --- | --- |
+| **Launchpad** | The platform a token launched on. Trenches covers PumpFun, LaunchLab (Raydium), and Meteora. |
+| **Bonding curve** | The pricing contract new launchpad tokens trade on before graduation. Buys push the price up the curve; sells push it down. |
+| **Graduation** | The point where a token completes its bonding curve and its liquidity migrates to a full DEX (PumpFun tokens graduate to PumpSwap). After graduation it trades like any other token. |
+| **Snipe** | A fast pre-configured buy on a launchpad token, using your saved amount, slippage, and priority settings. |
+| **USD1** | A USD stablecoin supported as a Trenches funding currency alongside SOL and USDC. |
+| **Tracker** | The wallet-tracking tab in Trenches — follow up to 50 wallets, get live buy/sell/launch alerts, and see their trades on your charts. |
+| **Dev / Sniper / Bundler / Insider** | Holder-analysis flags on every token showing what share of supply is held by the token deployer, early snipers, bundled buyers, and insiders. |
+
+***
+
+## Colosseum terms
+
+| Term | Definition |
+| --- | --- |
+| **Points** | Earned automatically from trading volume across all products, plus quests and other actions. Lifetime points set your rank. |
+| **Rank** | Your standing: Recruit → Warrior → Gladiator → Champion → Warlord → Immortal, each with subtiers 1–4. Rank sets your swap fee and your points multiplier. |
+| **Season** | A long-running campaign with a prize pool and its own boosts. |
+| **Session** | A shorter competition window inside a season — typically weekly — with its own leaderboard and prizes. |
+| **Quest** | A challenge that pays bonus points, boosts, or loot boxes — daily, weekly, or one-time. |
+| **Loot Box** | A reward drop earned from quests and milestones. Four rarities: Common, Rare, Epic, Legendary. Contains points or USDC. |
+| **Faction** | A team of up to 50 traders competing together. Top factions by weekly volume earn a points multiplier for every member. |
+| **Vault** | A community campaign: the whole platform trades toward a shared volume target to unlock rewards. |
+| **Bonus Window** | A time-limited event that boosts point earnings for eligible trades. |
+| **Social Scoring** | Points progress for quality posts about onchain.cc on X. |
+
+***
+
+{% hint style="info" %}
+New terms get added as the platform evolves. If you see something in the UI that is not covered here, check the product-specific docs or ask in [Discord](../resources/support.md).
+{% endhint %}
 
 ***
 

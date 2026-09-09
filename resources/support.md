@@ -1,68 +1,61 @@
 # Support & Community
 
-> **Warning:** Only trust official links. Scammers impersonate support — the team will never DM you first asking for your seed phrase or wallet access. If someone contacts you claiming to be from onchain.cc or Bitso support and asks for wallet access or your seed phrase, it is a scam. Report it and block them.
+{% hint style="warning" %}
+Only trust official links. Scammers impersonate support — the team will **never** DM you first, and no legitimate agent will ever ask for your seed phrase, private key, or wallet access. If someone does, it's a scam. Report and block.
+{% endhint %}
 
 ***
 
 ## Official Channels
 
-| Channel         | Link                             | Purpose                                                  |
-| --------------- | -------------------------------- | -------------------------------------------------------- |
-| **Discord**     | \[DISCORD\_LINK]                 | Primary support — help channel, community, announcements |
-| **X / Twitter** | \[TWITTER\_LINK]                 | Platform announcements and updates                       |
-| **Website**     | [onchain.cc](https://onchain.cc) | Official platform and documentation                      |
+| Channel | Link | Purpose |
+| --- | --- | --- |
+| **Discord** | [discord.gg/ZwjRVnM25w](https://discord.gg/ZwjRVnM25w) | Primary support — help channels, community, announcements |
+| **X / Twitter** | [@Onchaincc](https://x.com/Onchaincc) | Announcements and updates |
+| **In-app support** | **Get support** in the terminal menu | Live chat with the support team |
+| **Website** | [onchain.cc](https://onchain.cc) | The official terminal and these docs |
 
-When in doubt about whether a link is legitimate, navigate directly to [onchain.cc](https://onchain.cc) and find official links there.
+When in doubt about any link, navigate directly to [onchain.cc](https://onchain.cc) and use the official links there.
 
 ***
 
-## Getting Help on Discord
+## Getting Help
 
-Discord is the fastest path to a real answer. The community and support team are active 24/7.
+**In the terminal:** open the menu → **Get support** for live chat.
 
-**How to get help:**
+**On Discord:**
 
-1. Join the official Discord server at \[DISCORD\_LINK].
-2. Head to the **#help** channel.
-3. Describe your issue clearly — include the transaction signature if your question is about a specific trade. You can find this in your wallet's transaction history.
-4. A team member or community moderator will respond.
-
-For general questions, the community chat channels are also a good resource — many common issues have been answered there already.
+1. Join the official server: [discord.gg/ZwjRVnM25w](https://discord.gg/ZwjRVnM25w)
+2. Head to the help channel and describe your issue clearly — include the transaction signature if it's about a specific trade (find it in your wallet's transaction history or the confirmation screen).
+3. A team member or moderator will respond. The community channels have answered most common issues already.
 
 ***
 
 ## What Support Can Help With
 
-* Questions about how the platform works
+* How any product works — Spot, Perps, Trenches, Predictions, Swap
 * Troubleshooting failed or stuck transactions
-* Help understanding fees, gas, or slippage settings
-* Quest and Colosseum questions — points, rank, loot boxes, session results
-* Login or wallet connection issues
-* Reporting a bug or unexpected platform behavior
-* Reporting scam accounts or phishing attempts
+* Fees, gas, funding, and transfer questions
+* Colosseum — points, rank, quests, loot boxes, session results
+* Login and wallet connection issues
+* Reporting bugs, scam accounts, or phishing
 
-***
+## What Support Cannot Do
 
-## What Support Cannot Help With
+onchain.cc is self-custody — some things are impossible by design:
 
-onchain.cc is a self-custody platform. This means you control your own wallet and private keys — and it means some things are simply not possible to reverse or recover, by design.
-
-Support **cannot**:
-
-* Recover funds sent to the wrong address
-* Reverse completed on-chain transactions — once confirmed on any chain, transactions are final
+* Recover funds sent to a wrong address
+* Reverse confirmed on-chain transactions
 * Access your wallet or move funds on your behalf
-* Reset or recover your private key or seed phrase — only you hold these
-* Override smart contract logic or DEX routing decisions
-* Guarantee outcomes in Colosseum disputes about scoring or prize distribution
+* Recover a lost seed phrase or private key — only you hold these
+* Guarantee outcomes in Colosseum scoring or prize disputes
 
-If you have lost access to your seed phrase, that wallet's funds cannot be recovered by onchain.cc or anyone else. This is the fundamental property of self-custody. Store your seed phrase securely and offline.
+If you lose your seed phrase, that wallet's funds cannot be recovered by anyone. Store it securely and offline.
 
 ***
 
 ## Security Reminders
 
-* The onchain.cc team will **never** DM you first.
-* No legitimate support agent will ever ask for your seed phrase, private key, or to connect your wallet to an external site.
-* Always verify you are on the official domain — **onchain.cc** — before connecting your wallet.
-* Bookmark the site after your first visit and use that bookmark, not search results or links in DMs.
+* The team will **never** DM you first.
+* Never share your seed phrase or private key with anyone, ever.
+* Always verify you are on **onchain.cc** before connecting a wallet — bookmark it and use the bookmark.

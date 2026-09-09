@@ -1,12 +1,12 @@
 # Rank System
 
-Your rank is your standing in the Colosseum. It reflects how much you have traded, earned, and competed over your lifetime on the platform — and it directly affects two things: how fast you earn points on every future trade, and the **swap fee rate** you pay on every trade.
+Your rank is your standing in the Colosseum. It reflects your **lifetime points** — everything you have earned across all sessions and seasons — and it directly improves two things: how fast you earn points on every future trade, and the **swap fee** you pay.
 
 ***
 
 ## The Six Ranks
 
-Ranks are determined by your **lifetime total points** — the cumulative points you have earned across all sessions and seasons. As your total points grow, your rank automatically increases.
+The current rank ladder and fee schedule:
 
 | Tier | Rank Name | Subtiers | Swap Fee |
 | ---- | --------- | -------- | -------- |
@@ -17,63 +17,51 @@ Ranks are determined by your **lifetime total points** — the cumulative points
 | 5    | Warlord   | 1–4      | 0.11%    |
 | 6    | Immortal  | 1–4      | 0.10%    |
 
-Each rank applies a **multiplier** to your base point earnings, on top of reducing your swap fee. If you are Champion and another trader is Recruit, you earn more points for the same trade — every time — and pay a lower fee while doing it.
-
-> **Info:** Your rank is based on lifetime points. Rank up once and the benefit is permanent — both the higher point multiplier and the lower fee apply to every trade you make from that point forward.
+Each rank applies a **points multiplier** to everything you earn — the higher your rank, the more points the same trade generates — on top of reducing your swap fee. Rank is based on lifetime points, so ranking up is permanent: the higher multiplier and the lower fee apply to every trade from that moment on.
 
 ***
 
 ## Subtiers (1–4)
 
-Each rank is divided into **four subtiers** — Recruit 1 through Recruit 4, then Warrior 1, and so on. Subtiers are purely positional — they show how far you have progressed *within* a rank, and that's all:
+Each rank divides into four subtiers — Recruit 1 through Recruit 4, then Warrior 1, and so on. Subtiers are purely positional: they show progress *within* a rank, and that's all. Your fee and multiplier are set at the rank level — Recruit 1 and Recruit 4 pay the same fee and earn at the same rate.
 
-* You move from subtier 1 → 2 → 3 → 4 as your points accumulate.
-* When you complete subtier 4, your next points push you into the next rank's subtier 1.
-* **Subtiers don't affect your swap fee or your point multiplier** — both are set at the rank level. Recruit 1 and Recruit 4 pay the same 0.15% fee and earn at the same multiplier.
+<figure><img src="../.gitbook/assets/colosseum-ranks-1.png" alt=""><figcaption><p>Rank progression in the app</p></figcaption></figure>
 
 ***
 
 ## Swap Fee Reduction
 
-Every rank step reduces your swap fee by 0.01 percentage points, all the way down to the floor of **0.10%** at Immortal:
+Every rank step cuts your fee on **Swap and Trenches** trades by 0.01 percentage points, from 0.15% at Recruit down to the floor of **0.10% at Immortal** — a 33% reduction, locked in for life. It applies automatically: nothing to claim, no token to hold.
 
-* **Recruit:** 0.15% (the platform-wide base rate)
-* **Warrior:** 0.14%
-* **Gladiator:** 0.13%
-* **Champion:** 0.12%
-* **Warlord:** 0.11%
-* **Immortal:** 0.10% (lowest possible fee on onchain.cc)
-
-The fee reduction applies automatically to every trade you make on **Swap** and **Degen** from the moment you cross into the new rank. There is nothing to claim, no token to hold, and no opt-in.
-
-> **Info:** Perps fees follow a separate, volume-based schedule because perps run on Hyperliquid infrastructure with different economics. See [Perps → Fees & Funding](../perps/fees.md) for the perps fee schedule.
-
-> **Success:** Reach Immortal and you pay 0.10% on every trade — a 33% reduction off the base rate, locked in for life.
+{% hint style="info" %}
+Spot and Perps fees follow Hyperliquid's separate schedule — see [Spot Fees](../spot/fees.md) and [Perps Fees](../perps/fees.md).
+{% endhint %}
 
 ***
 
-## Points Formula
+## How Points Are Earned
 
-Every trade you complete generates points using the following formula:
+Every trade generates points from its **volume**, scaled by a base rate for the product, and then boosted:
 
 ```
-Points = Base Rate × Rank Multiplier × Faction Multiplier × Bonus Window Multiplier × Quest Multiplier
+Points = Volume × Base Rate × (1 + your active boosts)
 ```
 
-* **Base Rate** — the baseline points per dollar of volume traded.
-* **Rank Multiplier** — scales with your rank tier (higher rank = higher multiplier).
-* **Faction Multiplier** — bonus applied when you are a member of an active faction.
-* **Bonus Window Multiplier** — applied during time-limited multiplier events.
-* **Quest Multiplier** — applied when you are actively completing a qualifying quest.
+Boosts **add together** before applying — they come from:
 
-Stacking these multipliers — by holding a high rank, being in a faction, trading during a Bonus Window, and actively completing quests — is how top traders maximize their point earnings.
+* **Your rank** — the biggest and most permanent boost
+* **Your faction** — if it placed in the top factions by weekly volume ([Factions](factions.md))
+* **Bonus Windows** — time-limited events ([Seasons & Sessions](seasons-sessions.md))
+* **Season boosts** — active campaign multipliers
+* **Quest boosts** — temporary multipliers earned as quest rewards ([Quests](quests.md))
+
+Deposits, first-trade milestones, referrals, and quest completions award additional fixed points on top of trading.
 
 ***
 
 ## How to Rank Up
 
-1. **Trade more volume.** Points accumulate with every trade. No minimum trade size is required — volume compounds over time.
-2. **Complete quests.** Daily, weekly, and one-time quests award bonus points that count toward your lifetime total.
-3. **Stay active across sessions.** Lifetime points do not reset between sessions. Every session you participate in adds to your rank progress.
-
-There are no shortcuts or rank resets in Season 1. Your rank reflects your real trading history.
+1. **Trade volume.** Points accumulate with every trade, on every product. No minimum size.
+2. **Complete quests.** Bonus points count toward your lifetime total.
+3. **Stack your boosts.** A high rank, an active faction, and a Bonus Window compound the rate at which the same volume earns.
+4. **Stay active.** Lifetime points never reset — every session adds to your rank progress.

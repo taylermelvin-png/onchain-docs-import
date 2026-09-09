@@ -1,59 +1,48 @@
-# Fees
+# Swap Fees
 
-## 0.15% → 0.10% — the lowest platform fee in DeFi
+## 0.15% → 0.10% — among the lowest terminal fees in the market
 
-onchain.cc charges 0.15% on every trade at the **Recruit** rank — the lowest base fee in DeFi. As you climb Colosseum ranks, your fee drops by 0.01 percentage points per rank, down to **0.10% at Immortal**. No tokens to hold, no cashback theatre, no opt-in. What you see is what you pay, and your rank determines what you see.
-
-***
-
-## Platform Fee Comparison
-
-| Platform   | Fee                             |
-| ---------- | ------------------------------- |
-| onchain.cc | **0.15% - 0.10% (at top rank)** |
-| Axiom      | \~1% - 0.75% (at top rank)      |
-| Trojan     | 1% - 0.65% (at top rank)        |
-| GMGN       | 1%                              |
-
-Most DEX terminals charge around 0.75%. That's 5x more than onchain.cc per trade. On a $10,000 swap, the difference is $75 versus $15. On active trading, that gap compounds fast.
+onchain.cc charges **0.15%** per swap at the base rank. As you climb [Colosseum ranks](../colosseum/ranks.md), your fee drops by 0.01 percentage points per rank, down to **0.10% at Immortal**. No tokens to hold, no opt-in — your rank applies automatically to every trade. The same schedule covers [Trenches](../trenches/trading.md) trades.
 
 ***
 
-## Rank-Based Fee Schedule
+## The fee gap
 
-| Rank | Swap Fee |
-| ---- | -------- |
-| Recruit (1–4) | 0.15% |
-| Warrior (1–4) | 0.14% |
-| Gladiator (1–4) | 0.13% |
-| Champion (1–4) | 0.12% |
-| Warlord (1–4) | 0.11% |
-| Immortal (1–4) | 0.10% |
-
-Your rank applies automatically — there's nothing to opt into, no tokens to hold, no cashback theatre. See [Rank System](../colosseum/ranks.md) for how to rank up.
-
-> **Success:** What you see is what you pay. Your rank reduces it.
+Most competing terminals charge around 1% per trade — five to seven times more. On a $10,000 swap, that's roughly $100 elsewhere versus $15 here, before your rank discount. On active volume the gap compounds fast.
 
 ***
 
-## Network Fees (Gas)
+## Rank-based schedule
 
-In addition to the platform fee, every on-chain transaction requires a small gas fee paid to the network you're trading on. This is separate from onchain.cc's fee and is not controlled by or paid to onchain.cc.
+| Rank | Swap fee |
+| --- | --- |
+| Recruit | 0.15% |
+| Warrior | 0.14% |
+| Gladiator | 0.13% |
+| Champion | 0.12% |
+| Warlord | 0.11% |
+| Immortal | 0.10% |
 
-Key points about gas fees:
-
-* Paid in the chain's native token (SOL on Solana, ETH on Ethereum, etc.), deducted directly from your wallet
-* Cost varies by chain — typically fractions of a cent on Solana, more on Ethereum mainnet, very low on most L2s
-* Required for every transaction — buys, sells, and failed transactions
-* Not included in the 0.15% platform fee
-
-> **Info:** Always keep a small balance of the native token on whichever chain you're trading on. If your native-token balance reaches zero, you won't be able to submit transactions — including sells — on that chain.
+This is the current schedule — the fee for your rank is always shown in the swap panel before you confirm. See [Rank System](../colosseum/ranks.md) for how to rank up.
 
 ***
 
-## Fee Summary
+## Network fees (gas)
 
-| Fee Type        | Amount                      | Paid To                     |
-| --------------- | --------------------------- | --------------------------- |
-| Platform fee    | 0.15% – 0.10% based on rank | onchain.cc                  |
-| Network gas fee | Variable (depends on chain) | The chain you're trading on |
+Every on-chain transaction also carries the network's own gas fee — paid to the chain, not to onchain.cc.
+
+* **Sponsored on most EVM chains** — Base, Arbitrum, Optimism, Polygon, Linea, Scroll, Gnosis, Berachain, and Robinhood swaps don't need you to hold the native token.
+* **Solana, Ethereum, and BNB** — keep a small native-token balance (fractions of a cent per transaction on Solana; more on Ethereum mainnet).
+
+***
+
+## Fee summary
+
+| Fee type | Amount | Paid to |
+| --- | --- | --- |
+| Platform fee | 0.15% → 0.10% by rank | onchain.cc |
+| Network gas | Variable by chain; sponsored on most EVM chains | The network |
+
+{% hint style="info" %}
+Note the scope: this schedule covers **Swap and Trenches** — on-chain token trades. [Spot](../spot/fees.md) and [Perps](../perps/fees.md) run on Hyperliquid's order book with their own fee structure, and [Predictions](../predictions/overview.md) orders carry no added onchain.cc fee.
+{% endhint %}
