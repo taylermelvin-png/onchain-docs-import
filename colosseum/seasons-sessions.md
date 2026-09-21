@@ -10,6 +10,7 @@ A **Season** is the long-running campaign that frames everything else. Seasons r
 
 * Each season has announced dates and a total prize pool.
 * Season-wide **boosts** can apply while a season is active — including boosts targeted at specific products or events.
+* When a new season opens, **rank points reset and everyone returns to Recruit together** — see [Rank System](ranks.md). Your lifetime points balance and claimable cashback are untouched.
 * When a season ends, prizes settle and a new season opens with a fresh campaign.
 
 ***

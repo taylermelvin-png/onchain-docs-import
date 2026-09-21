@@ -6,8 +6,8 @@ It is built and backed by Bitso, Latin America's largest licensed crypto exchang
 
 **Three reasons traders choose onchain.cc:**
 
-* **Among the lowest fees of any terminal** — token swaps and Trenches trades start at 0.15% and fall to 0.10% as your Colosseum rank climbs. Most competing terminals charge around 1%.
-* **Four products, one terminal** — spot, perps, launch sniping, and prediction markets share one login, one portfolio, and seamless transfers between products. No tab-juggling between platforms.
+* **Every fee pays you back** — 25% to 50% of every trading fee on every product returns to you as USDC cashback, set by your Colosseum rank and settled on-chain in seconds. Net of cashback, among the cheapest terminals anywhere.
+* **Four products, one terminal** — spot, perps, token launches, and prediction markets share one login, one portfolio, and seamless transfers between products. No tab-juggling between platforms.
 * **Colosseum** — a live competitive layer with real USDC prize pools. Every trade earns points; points become rank, rewards, and standing.
 
 ***

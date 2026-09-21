@@ -29,6 +29,8 @@ Your own row is always highlighted, wherever you rank.
 
 The **session leaderboard decides prizes**. Your position when the session closes is what pays.
 
+One small on-ramp: you appear on the season leaderboard once your account has **$1,000 of accumulated trading volume** — a couple of trades for most. Once cleared, it's cleared for the whole season, and it gates only the leaderboard, never your points or rank progress.
+
 ***
 
 ## How Prizes Pay Out
@@ -46,11 +48,11 @@ Standings near the prize cutoff often shift in the final hours of a session — 
 ## How to Climb
 
 1. **Trade volume** — points are a function of volume, on every product.
-2. **Raise your rank** — a permanently higher boost on everything you earn.
+2. **Trade where the points are** — Trenches earns the highest rate per dollar, and each product has its own ([Rank System](ranks.md) has the table).
 3. **Join an active faction** — the weekly faction boost stacks on top ([Factions](factions.md)).
 4. **Hit the Bonus Windows** — check the dashboard and plan sessions around them.
-5. **Clear your quests** — quest points build your rank, and a higher rank boosts the points every trade puts on the session board.
-6. **Stack it all** — rank + faction + window at once is how the top of the board earns.
+5. **Clear your quests** — quest points advance your rank climb and lifetime balance alongside your trading.
+6. **Stack what stacks** — an active faction plus a live Bonus Window on the right product is how the top of the board earns.
 
 ***
 

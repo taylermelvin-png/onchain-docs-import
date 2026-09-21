@@ -37,5 +37,5 @@ Higher rarity means better odds of USDC and bigger prizes on both sides of the r
 <figure><img src="../.gitbook/assets/colosseum-loot-boxes-3.png" alt=""><figcaption><p>Opening a box and claiming the reward</p></figcaption></figure>
 
 {% hint style="info" %}
-Each box opens exactly once — the roll is final the moment you open it. Boxes don't expire, but seasonal reward pools can rotate, so opening during the active season guarantees the current pool.
+Each box opens exactly once — the roll is final the moment you open it. **Unopened boxes expire 30 days after they're granted** — the inventory shows a countdown on each box, so open them while they're live.
 {% endhint %}

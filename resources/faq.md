@@ -26,11 +26,16 @@ The terminal is available in most countries, but certain products are restricted
 
 It depends on the product:
 
-* **Swap and Trenches** — 0.15% at the base rank, falling to **0.10%** as your Colosseum rank climbs. Among the lowest terminal fees in the market. Trenches trades also carry the launchpad's own protocol fee, included in the quoted price.
-* **Spot and Perps** — Hyperliquid's volume-tiered maker/taker fee plus a small Onchain service fee, always shown combined in the order panel before you confirm.
-* **Predictions** — no additional onchain.cc fee is currently charged on orders.
+* **Swap and Trenches** — 0.50% per trade. Trenches trades also carry the launchpad's own protocol fee, included in the quoted price.
+* **Spot** — buys are free; sells pay 0.25% maker / 0.35% taker.
+* **Perps** — Hyperliquid's volume-tiered maker/taker fee plus a 0.05% Onchain service fee, shown combined in the order panel.
+* **Predictions** — 0.50% per order, capped on low-priced shares.
 
-Network gas applies to on-chain trades (Swap/Trenches) and is sponsored on most EVM chains.
+And on all of it: **25–50% of every fee comes back to you as [cashback](../colosseum/cashback.md)**, set by your Colosseum rank and claimable in USDC. Network gas applies to on-chain trades (Swap/Trenches) and is sponsored on most EVM chains.
+
+### How does cashback work?
+
+Every fee you pay accrues cashback at your rank's rate (25% at Recruit up to 50% at Immortal), into weekly buckets you claim from the Cashback panel — minimum claim $1, paid on-chain in seconds. **Claim regularly: buckets expire 14 days after their week closes (30 days at Warlord and Immortal)**, and accrual pauses if you go 60 days without trading. Full detail: [Cashback](../colosseum/cashback.md).
 
 ### Do I need a chain's native token to trade?
 
@@ -58,11 +63,11 @@ You already have. Enrollment is automatic when you create an account, and your f
 
 ### What's the difference between a Season and a Session?
 
-A **Season** is the long campaign (weeks to months) with the headline prize pool. A **Session** is a shorter competition inside it — typically weekly — with its own leaderboard and prizes, scored from zero. Your lifetime rank carries across all of them.
+A **Season** is the long campaign (weeks to months) with the headline prize pool. A **Session** is a shorter competition inside it — typically weekly — with its own leaderboard and prizes, scored from zero. Rank points reset when a new season opens — everyone starts the climb again from Recruit — while your lifetime points balance carries forever.
 
-### How do I earn points faster?
+### How do I rank up faster?
 
-Points come from trading volume across every product, scaled by your boosts. The levers: rank up (permanent boost), join an active faction (weekly boost for top factions), trade during Bonus Windows, and clear daily and weekly quests. All boosts stack. See [Rank System](../colosseum/ranks.md).
+Rank points come from trading volume, at each product's own rate — Trenches earns the most per dollar, and quests add points on top. Occasional Bonus Windows and faction boosts multiply earnings, but the base rates carry the climb. See [Rank System](../colosseum/ranks.md) for the full rate table and thresholds.
 
 ### When do session prizes arrive?
 

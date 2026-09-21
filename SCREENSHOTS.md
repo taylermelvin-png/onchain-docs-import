@@ -26,6 +26,8 @@ Status as of 2026-09-07. Every carried-over screenshot was recovered from the li
 | portfolio/dashboard.md | A built dashboard board |
 | portfolio/charts.md | Multi-chart workspace |
 | colosseum/factions.md | Factions panel + leaderboard |
+| colosseum/cashback.md | Cashback panel in the terminal — buckets, live tick, Claim button *(added 21 Sep)* |
+| colosseum/ranks.md | Season 2 rank progression UI — six ranks, no sub-tiers *(added 21 Sep; replaces the retired S1 rank shot)* |
 
 ## Carried-over shots embedded — recapture when convenient (all show the pre-August nav: Discover/Degen/Perps/Swap/Portfolio)
 

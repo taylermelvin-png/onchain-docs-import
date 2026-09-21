@@ -9,9 +9,9 @@ There are two distinct cost types on perps: **trading fees** (charged per order)
 Every order pays a combined rate made of two parts:
 
 1. **Hyperliquid's trading fee** — the exchange's maker/taker rate for your account. Hyperliquid tiers these rates by rolling trading volume, so active accounts pay less, and maker orders always pay less than taker orders.
-2. **Onchain service fee** — a small markup added by onchain.cc.
+2. **Onchain service fee** — a small flat markup of **0.05%**.
 
-The order panel shows the **combined taker and maker rate you'll actually pay** on every order before you confirm — that display is the source of truth for your account.
+The order panel shows the **combined taker and maker rate you'll actually pay** on every order before you confirm — that display is the source of truth for your account. And like every fee on the terminal, perps fees earn **25–50% [cashback](../colosseum/cashback.md)** by Colosseum rank.
 
 ### Maker vs. Taker
 

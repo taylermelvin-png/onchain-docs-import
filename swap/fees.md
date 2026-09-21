@@ -1,29 +1,23 @@
 # Swap Fees
 
-## 0.15% → 0.10% — among the lowest terminal fees in the market
+## One fee, and it pays you back
 
-onchain.cc charges **0.15%** per swap at the base rank. As you climb [Colosseum ranks](../colosseum/ranks.md), your fee drops by 0.01 percentage points per rank, down to **0.10% at Immortal**. No tokens to hold, no opt-in — your rank applies automatically to every trade. The same schedule covers [Trenches](../trenches/trading.md) trades.
+onchain.cc charges **0.50%** per swap — and **25% to 50% of every fee comes back to you as [cashback](../colosseum/cashback.md)**, set by your Colosseum rank and claimable in USDC. The same fee and cashback apply to [Trenches](../trenches/trading.md) trades.
 
-***
+| Rank | Cashback | Net cost of a 0.50% fee |
+| --- | --- | --- |
+| Recruit | 25% | 0.375% |
+| Warrior | 30% | 0.35% |
+| Gladiator | 35% | 0.325% |
+| Champion | 40% | 0.30% |
+| Warlord | 45% | 0.275% |
+| Immortal | 50% | 0.25% |
 
-## The fee gap
+The fee is shown in the swap panel before you confirm, and each trade's cashback lands in your Cashback panel live — see [Cashback](../colosseum/cashback.md) for how accrual, claiming, and expiry work. Traders active before the September 2026 restructure are automatically grandfathered onto a better cashback ladder that preserves their previous net rates.
 
-Most competing terminals charge around 1% per trade — five to seven times more. On a $10,000 swap, that's roughly $100 elsewhere versus $15 here, before your rank discount. On active volume the gap compounds fast.
-
-***
-
-## Rank-based schedule
-
-| Rank | Swap fee |
-| --- | --- |
-| Recruit | 0.15% |
-| Warrior | 0.14% |
-| Gladiator | 0.13% |
-| Champion | 0.12% |
-| Warlord | 0.11% |
-| Immortal | 0.10% |
-
-This is the current schedule — the fee for your rank is always shown in the swap panel before you confirm. See [Rank System](../colosseum/ranks.md) for how to rank up.
+{% hint style="info" %}
+Most competing terminals charge around 1% per trade with nothing back. Counted net of cashback, onchain.cc remains among the cheapest ways to trade on any terminal — and the more you climb, the wider the gap gets.
+{% endhint %}
 
 ***
 
@@ -38,11 +32,11 @@ Every on-chain transaction also carries the network's own gas fee — paid to th
 
 ## Fee summary
 
-| Fee type | Amount | Paid to |
+| Fee type | Amount | Notes |
 | --- | --- | --- |
-| Platform fee | 0.15% → 0.10% by rank | onchain.cc |
-| Network gas | Variable by chain; sponsored on most EVM chains | The network |
+| Platform fee | 0.50% per swap | 25–50% returned as cashback by rank |
+| Network gas | Variable by chain | Sponsored on most EVM chains |
 
 {% hint style="info" %}
-Note the scope: this schedule covers **Swap and Trenches** — on-chain token trades. [Spot](../spot/fees.md) and [Perps](../perps/fees.md) run on Hyperliquid's order book with their own fee structure, and [Predictions](../predictions/overview.md) orders carry no added onchain.cc fee.
+Scope: this schedule covers **Swap and Trenches**. [Spot](../spot/fees.md), [Perps](../perps/fees.md), and [Predictions](../predictions/overview.md) have their own fee structures — and cashback applies to all of them.
 {% endhint %}

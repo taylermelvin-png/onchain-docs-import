@@ -52,7 +52,7 @@ Each market page gives you the full trading picture:
 | Minimum deposit | $2 |
 | Order types | Market and limit |
 | Payout | $1.00 per winning share, claimable after resolution |
-| Fees | No additional onchain.cc fee is currently charged on prediction orders |
+| Fees | 0.50% per order (capped on low-priced shares), shown before you confirm — with 25–50% back as [cashback](../colosseum/cashback.md) |
 
 ***
 

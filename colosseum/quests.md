@@ -33,9 +33,9 @@ The reset wipes everything on daily and weekly quests — progress **and complet
 
 | Reward | What it does |
 | --- | --- |
-| **Points** | Count toward your lifetime total — building your rank and its permanent boost |
+| **Points** | Add to your lifetime balance and your seasonal rank climb — see [Rank System](ranks.md) |
 | **Loot Boxes** | Reward drops — see [Loot Boxes](loot-boxes.md) |
-| **Boosts** | Temporary points multipliers, and other time-limited perks |
+| **Boosts** | Temporary points multipliers and [cashback](cashback.md) boosts, and other time-limited perks |
 
 ***
 

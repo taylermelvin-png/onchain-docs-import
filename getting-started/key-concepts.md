@@ -56,8 +56,9 @@ onchain.cc has its own vocabulary — some of it standard crypto terminology, so
 
 | Term | Definition |
 | --- | --- |
-| **Points** | Earned automatically from trading volume across all products, plus quests and other actions. Lifetime points set your rank. |
-| **Rank** | Your standing: Recruit → Warrior → Gladiator → Champion → Warlord → Immortal, each with subtiers 1–4. Rank sets your swap fee and your points multiplier. |
+| **Points** | Earned automatically from trading volume across all products, plus quests. Your lifetime points balance never resets; your seasonal **rank points** drive the rank climb. |
+| **Rank** | Your seasonal standing: Recruit → Warrior → Gladiator → Champion → Warlord → Immortal. Rank sets your cashback rate, and resets to Recruit for everyone when a new season opens. |
+| **Cashback** | 25–50% of every trading fee returned to you in USDC, by rank. Accrues live as you trade; claim it before it expires. |
 | **Season** | A long-running campaign with a prize pool and its own boosts. |
 | **Session** | A shorter competition window inside a season — typically weekly — with its own leaderboard and prizes. |
 | **Quest** | A challenge that pays bonus points, boosts, or loot boxes — daily, weekly, or one-time. |

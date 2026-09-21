@@ -40,14 +40,14 @@ Trenches is currently **Solana-only** — that's where the launchpad market live
 
 1. **Spot it** — a token appears in the Live scanner or Explorer, or one of your tracked wallets buys in.
 2. **Vet it** — check the holder-analysis chips (dev / sniper / bundler / insider), bonding progress, volume, and socials. See [Finding Tokens](discovery.md).
-3. **Snipe it** — one tap with your saved preset: amount, slippage, and priority settings pre-configured. See [Trading on Trenches](trading.md).
+3. **Buy it** — one tap on **SNIPE** with your saved preset: amount, slippage, and priority settings pre-configured. See [Trading on Trenches](trading.md).
 4. **Manage it** — watch the position in the Positions tab, track the chart, and sell in one tap when it's time.
 
 ***
 
 ## Fees
 
-Trenches trades pay the same rank-based platform fee as [Swap](../swap/fees.md) — **0.15% at the base rank, falling to 0.10%** as your [Colosseum rank](../colosseum/ranks.md) climbs. Launchpads charge their own protocol fees on bonding-curve trades, which are part of the quoted price. Standard Solana gas and priority fees apply.
+Trenches trades pay the same platform fee as [Swap](../swap/fees.md) — **0.50%**, with **25–50% of it returned as [cashback](../colosseum/cashback.md)** by Colosseum rank. Trenches also earns rank points at the highest rate on the terminal (0.75 per $1 traded). Launchpads charge their own protocol fees on bonding-curve trades, which are part of the quoted price, and standard Solana gas and priority fees apply.
 
 ***
 

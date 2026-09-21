@@ -54,6 +54,7 @@
 * [What is Colosseum?](colosseum/overview.md)
 * [Seasons & Sessions](colosseum/seasons-sessions.md)
 * [Rank System](colosseum/ranks.md)
+* [Cashback](colosseum/cashback.md)
 * [Quests](colosseum/quests.md)
 * [Loot Boxes](colosseum/loot-boxes.md)
 * [Factions](colosseum/factions.md)

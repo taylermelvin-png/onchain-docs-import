@@ -36,5 +36,5 @@ You can be in **one faction at a time**; leave your current one before switching
 ***
 
 {% hint style="info" %}
-The faction boost stacks with your rank and any active Bonus Windows — see [Rank System](ranks.md) for how boosts combine. For a solo trader, joining an active faction is the single easiest points upgrade available.
+The faction boost stacks with any active Bonus Windows on your point earnings. For a solo trader, joining an active faction is the single easiest points upgrade available.
 {% endhint %}

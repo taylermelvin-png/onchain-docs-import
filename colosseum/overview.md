@@ -13,10 +13,10 @@ Trade  →  Earn Points  →  Level Up Rank  →  Compete  →  Win
 ```
 
 1. **Trade** on onchain.cc — any product, any size.
-2. **Earn points** automatically based on your trading volume, boosted by your rank, faction, and active events.
-3. **Level up your rank** as your lifetime points accumulate — higher rank means a bigger points boost and a lower swap fee.
+2. **Earn points** automatically from your trading volume — every product earns at its own rate.
+3. **Level up your rank** as your seasonal rank points accumulate — a higher rank means a bigger cashback rate on every fee you pay.
 4. **Compete** on session leaderboards against other traders.
-5. **Win** USDC prizes as sessions and seasons pay out.
+5. **Win** — USDC cashback on every trade, and prize pools as sessions and seasons pay out.
 
 <figure><img src="../.gitbook/assets/colosseum-overview-1.png" alt=""><figcaption><p>The Colosseum dashboard</p></figcaption></figure>
 
@@ -28,7 +28,8 @@ Trade  →  Earn Points  →  Level Up Rank  →  Compete  →  Win
 | --- | --- |
 | [**Seasons**](seasons-sessions.md) | Long-running campaigns with a global prize pool |
 | [**Sessions**](seasons-sessions.md) | Short competitions — typically weekly — with their own leaderboards and prizes |
-| [**Ranks**](ranks.md) | Six tiers from Recruit to Immortal — each with a higher points boost and a lower swap fee (0.15% → 0.10%) |
+| [**Ranks**](ranks.md) | The seasonal climb from Recruit to Immortal — each rank raises your cashback rate |
+| [**Cashback**](cashback.md) | 25–50% of every trading fee back in USDC, by rank — claim weekly before it expires |
 | [**Quests**](quests.md) | Daily, weekly, and one-time challenges paying bonus points, boosts, and loot boxes |
 | [**Loot Boxes**](loot-boxes.md) | Reward drops in four rarities, containing points or USDC |
 | [**Factions**](factions.md) | Team play — the top factions each week earn a points boost for every member |
