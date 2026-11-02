@@ -1,6 +1,6 @@
 # Trenches Overview
 
-Trenches is onchain.cc's token-launch product — a live scanner and trading surface for new Solana tokens, from the first block of a launch through graduation and beyond. If your game is catching runners early, this is where you live.
+Trenches is onchain.cc's token-launch product — a live scanner and trading surface for new tokens on Solana and Robinhood Chain, from the first block of a launch through graduation and beyond. If your game is catching runners early, this is where you live.
 
 ***
 
@@ -17,7 +17,7 @@ Trenches tracks launches across **three launchpads**:
 Every token shows a launchpad badge on its logo, and you can filter any view to the launchpads you care about. Trading works the same way across all three — Trenches handles each venue's mechanics under the hood, both before and after graduation.
 
 {% hint style="info" %}
-Trenches is currently **Solana-only** — that's where the launchpad market lives.
+Trenches covers **Solana** — the three launchpads above — and **Robinhood Chain** launches.
 {% endhint %}
 
 ***

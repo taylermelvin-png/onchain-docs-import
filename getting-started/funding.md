@@ -19,7 +19,7 @@ Open **Add funds** from the header balance menu or the Portfolio page. Two tabs:
 
 ### Crypto — deposit or pull from another wallet
 
-* **Deposit** — copy your address or scan the QR code. Solana and all supported EVM chains (Ethereum, Base, Arbitrum, Optimism, Polygon, BNB, Linea, Scroll, Gnosis, Berachain, Robinhood) are accepted.
+* **Deposit** — copy your address or scan the QR code. Solana and all supported EVM chains (Ethereum, Base, Arbitrum, Optimism, Polygon, BNB, Linea, Scroll, Gnosis, Berachain, Robinhood, Arc) are accepted.
 * **Connect wallet** — connect Phantom, MetaMask, or another external wallet and transfer funds across in a guided flow without leaving the terminal.
 
 <figure><img src="../.gitbook/assets/getting-started-quick-start-5.png" alt=""><figcaption><p>Depositing crypto to your wallet address</p></figcaption></figure>

@@ -16,7 +16,7 @@ onchain.cc has two ways to buy a token, built for different jobs:
 | --- | --- | --- |
 | Execution | Central limit order book (Hyperliquid) | DEX aggregation across on-chain liquidity |
 | Order types | Market, limit (GTC/IOC/post-only), TWAP | Instant swap |
-| Pairs | Curated USDC pairs | Any routable token on 12 chains |
+| Pairs | Curated USDC pairs | Any routable token on 13 chains |
 | Balance | Shared Perps/Spot USDC balance | Your wallet |
 | Best for | Actively trading liquid markets with price control | Converting between any two tokens, cross-chain |
 

@@ -1,6 +1,6 @@
 # Welcome to onchain.cc
 
-onchain.cc is a multi-chain self-custody trading terminal built for traders who take execution seriously. Trade spot, perps, token launches, and prediction markets from one interface — with cross-chain swaps across 12 chains, professional charts, deep liquidity routing, and a competitive layer that rewards the trading you already do. You never hand custody of your assets to anyone.
+onchain.cc is a multi-chain self-custody trading terminal built for traders who take execution seriously. Trade spot, perps, token launches, and prediction markets from one interface — with cross-chain swaps across 13 chains, professional charts, deep liquidity routing, and a competitive layer that rewards the trading you already do. You never hand custody of your assets to anyone.
 
 It is built and backed by Bitso, Latin America's largest licensed crypto exchange — the backing of a regulated exchange behind a product that feels native to DeFi.
 
@@ -21,7 +21,7 @@ It is built and backed by Bitso, Latin America's largest licensed crypto exchang
 | [Trenches](trenches/overview.md)            | Trade token launches in real time across PumpFun, LaunchLab, and Meteora. Live scanner, snipe presets, wallet tracker. |
 | [Predictions](predictions/overview.md)      | Trade the outcome of real-world events — sports, politics, crypto, and more. Powered by Polymarket.                 |
 
-Alongside the four products: [cross-chain Swap](swap/overview.md) across 12 chains, a [Portfolio](portfolio/portfolio-view.md) that tracks everything in one place, a fully [customizable Dashboard](portfolio/dashboard.md), and a multi-chart [workspace](portfolio/charts.md).
+Alongside the four products: [cross-chain Swap](swap/overview.md) across 13 chains, a [Portfolio](portfolio/portfolio-view.md) that tracks everything in one place, a fully [customizable Dashboard](portfolio/dashboard.md), and a multi-chart [workspace](portfolio/charts.md).
 
 ***
 

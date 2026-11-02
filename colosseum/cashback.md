@@ -19,7 +19,7 @@ Cashback rates climb with rank:
 | Warlord | 45% |
 | Immortal | 50% |
 
-From your very first trade, a quarter of every fee comes back. At Immortal, half. Your current rate is always shown on the Colosseum dashboard, and quests can grant **temporary cashback boosts** on top.
+From your very first trade, a quarter of every fee comes back. At Immortal, half. Your current rate is always shown on the Colosseum dashboard.
 
 Two standing bonuses worth knowing:
 

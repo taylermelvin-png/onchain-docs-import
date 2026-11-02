@@ -10,9 +10,9 @@ onchain.cc has its own vocabulary — some of it standard crypto terminology, so
 | --- | --- |
 | **Spot** | The order-book spot trading product, powered by Hyperliquid. A deep universe of USDC pairs with market, limit, and TWAP orders. Shares one USDC balance with Perps. |
 | **Perps** | Perpetual futures, powered by Hyperliquid. Go long or short with leverage; no expiry. Uses the shared Perps/Spot balance. |
-| **Trenches** | The token-launch product. A live scanner and trading surface for new Solana tokens across the PumpFun, LaunchLab, and Meteora launchpads — from first block to graduation and beyond. |
+| **Trenches** | The token-launch product. A live scanner and trading surface for new tokens — Solana launches across the PumpFun, LaunchLab, and Meteora launchpads, plus Robinhood Chain launches — from first block to graduation and beyond. |
 | **Predictions** | Prediction markets powered by Polymarket. Buy Yes or No shares on real-world events; winning shares settle at $1. |
-| **Swap** | Cross-chain token swaps across 12 supported chains, with automatic best-price routing. |
+| **Swap** | Cross-chain token swaps across 13 supported chains, with automatic best-price routing. |
 | **Portfolio** | Your consolidated view: wallet holdings, Spot, Perps, and Predictions balances, positions, and PnL. |
 | **Dashboard** | Your customizable home screen — build it from 30+ widgets, save up to three layouts, share and import boards. |
 | **Colosseum** | The competitive layer. Trading earns points; points build rank and standing on prize-pool leaderboards. |

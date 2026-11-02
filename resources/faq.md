@@ -83,4 +83,4 @@ Every account has a referral link — find your code in the Colosseum section, a
 
 ### How do I contact support?
 
-**Discord** is the primary channel — join via the link at [onchain.cc](https://onchain.cc) and head to the help channels. In the terminal, **Get support** in the menu opens live chat. For announcements, follow [@Onchaincc](https://x.com/Onchaincc) on X. See [Support & Community](support.md).
+Two ways: in the terminal, **Get support** in the menu opens live chat. Or join the official **Discord** (link at [onchain.cc](https://onchain.cc)), verify, and open a private support ticket. For announcements, follow [@Onchaincc](https://x.com/Onchaincc) on X. See [Support & Community](support.md).

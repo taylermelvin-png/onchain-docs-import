@@ -10,7 +10,7 @@ Only trust official links. Scammers impersonate support — the team will **neve
 
 | Channel | Link | Purpose |
 | --- | --- | --- |
-| **Discord** | [discord.gg/ZwjRVnM25w](https://discord.gg/ZwjRVnM25w) | Primary support — help channels, community, announcements |
+| **Discord** | [discord.gg/ZwjRVnM25w](https://discord.gg/ZwjRVnM25w) | Support tickets, community, announcements |
 | **X / Twitter** | [@Onchaincc](https://x.com/Onchaincc) | Announcements and updates |
 | **In-app support** | **Get support** in the terminal menu | Live chat with the support team |
 | **Website** | [onchain.cc](https://onchain.cc) | The official terminal and these docs |
@@ -26,8 +26,9 @@ When in doubt about any link, navigate directly to [onchain.cc](https://onchain.
 **On Discord:**
 
 1. Join the official server: [discord.gg/ZwjRVnM25w](https://discord.gg/ZwjRVnM25w)
-2. Head to the help channel and describe your issue clearly — include the transaction signature if it's about a specific trade (find it in your wallet's transaction history or the confirmation screen).
-3. A team member or moderator will respond. The community channels have answered most common issues already.
+2. **Verify** — press the Verify button in the verification channel to unlock the server. Very new Discord accounts have to wait a few days before they can verify.
+3. **Open a ticket** in the support channel. Tickets are private, so this is the place for anything about your own account. Describe your issue clearly and include the transaction signature if it's about a specific trade (find it in your wallet's transaction history or the confirmation screen).
+4. A team member will reply in your ticket. For general questions, the community channels have answered most common issues already.
 
 ***
 

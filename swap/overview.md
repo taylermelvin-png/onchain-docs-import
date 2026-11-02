@@ -1,12 +1,12 @@
 # Cross-Chain Swap
 
-Swap converts any token into any other token across **12 supported chains** — same-chain or cross-chain, in one transaction flow, with automatic best-price routing. It trades straight from your wallet: no order book, no product balance to fund, full self-custody.
+Swap converts any token into any other token across **13 supported chains** — same-chain or cross-chain, in one transaction flow, with automatic best-price routing. It trades straight from your wallet: no order book, no product balance to fund, full self-custody.
 
 ***
 
 ## Supported chains
 
-**Solana · Ethereum · Base · Arbitrum · Optimism · Polygon · BNB · Linea · Scroll · Gnosis · Berachain · Robinhood**
+**Solana · Ethereum · Base · Arbitrum · Optimism · Polygon · BNB · Linea · Scroll · Gnosis · Berachain · Robinhood · Arc**
 
 Swap both within and between them — Solana ↔ EVM included. On most EVM chains **gas is sponsored**, so you can trade without holding the native token; on Solana, Ethereum, and BNB keep a small native-token balance for gas.
 
@@ -44,7 +44,7 @@ Slippage protects you: if the price moves beyond your tolerance before the trans
 
 ## Swap vs. Spot
 
-Swap is instant conversion from your wallet across 12 chains. [Spot](../spot/overview.md) is order-book trading on Hyperliquid — limit orders, TWAPs, maker/taker fees — from a funded product balance. Converting tokens? Swap. Working orders on liquid pairs? Spot.
+Swap is instant conversion from your wallet across 13 chains. [Spot](../spot/overview.md) is order-book trading on Hyperliquid — limit orders, TWAPs, maker/taker fees — from a funded product balance. Converting tokens? Swap. Working orders on liquid pairs? Spot.
 
 ***
 
