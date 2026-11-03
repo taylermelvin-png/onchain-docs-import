@@ -1,6 +1,6 @@
 # Rank System
 
-Your rank is your standing in the Colosseum — the seasonal climb from Recruit to Immortal. Rank determines one thing, and it's a big one: your **[cashback rate](cashback.md)** on every trading fee you pay.
+Your rank is your standing in the Colosseum — the seasonal climb from Recruit to Immortal. Rank determines one thing, and it's a big one: your **[cashback rate](cashback.md)** on the onchain.cc fee you pay.
 
 <!-- 📸 SCREENSHOT NEEDED: Season 2 rank progression UI (six ranks, no sub-tiers) -->
 

@@ -58,20 +58,20 @@ onchain.cc has its own vocabulary — some of it standard crypto terminology, so
 | --- | --- |
 | **Points** | Earned automatically from trading volume across all products, plus quests. Your lifetime points balance never resets; your seasonal **rank points** drive the rank climb. |
 | **Rank** | Your seasonal standing: Recruit → Warrior → Gladiator → Champion → Warlord → Immortal. Rank sets your cashback rate, and resets to Recruit for everyone when a new season opens. |
-| **Cashback** | 25–50% of every trading fee returned to you in USDC, by rank. Accrues live as you trade; claim it before it expires. |
+| **Cashback** | 25–50% of the onchain.cc fee returned to you in USDC, by rank. Accrues live as you trade; claim it before it expires. |
 | **Season** | A long-running campaign with a prize pool and its own boosts. |
 | **Session** | A shorter competition window inside a season — typically weekly — with its own leaderboard and prizes. |
 | **Quest** | A challenge that pays bonus points, boosts, or loot boxes — daily, weekly, or one-time. |
 | **Loot Box** | A reward drop earned from quests and milestones. Four rarities: Common, Rare, Epic, Legendary. Contains points or USDC. |
 | **Faction** | A team of up to 50 traders competing together. Top factions by weekly volume earn a points multiplier for every member. |
-| **Vault** | A community campaign: the whole platform trades toward a shared volume target to unlock rewards. |
+| **Vault** | A community campaign: the whole terminal trades toward a shared volume target to unlock rewards. |
 | **Bonus Window** | A time-limited event that boosts point earnings for eligible trades. |
 | **Social Scoring** | Points progress for quality posts about onchain.cc on X. |
 
 ***
 
 {% hint style="info" %}
-New terms get added as the platform evolves. If you see something in the UI that is not covered here, check the product-specific docs or ask in [Discord](../resources/support.md).
+New terms get added as the terminal evolves. If you see something in the UI that is not covered here, check the product-specific docs or ask in [Discord](../resources/support.md).
 {% endhint %}
 
 ***

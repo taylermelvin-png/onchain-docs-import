@@ -43,7 +43,7 @@ Transactions are submitted for the fastest possible inclusion, with MEV protecti
 
 ## Fees
 
-* **Platform fee:** the same schedule as [Swap](../swap/fees.md) — 0.50% per trade, with 25–50% returned as [cashback](../colosseum/cashback.md) by Colosseum rank.
+* **onchain.cc fee:** the same schedule as [Swap](../swap/fees.md) — 0.50% per trade, with 25–50% returned as [cashback](../colosseum/cashback.md) by Colosseum rank.
 * **Launchpad protocol fees:** each launchpad charges its own fee on its trades — included in the quoted price you see, not an onchain.cc charge.
 * **Network costs:** Solana gas plus your configured priority fee and inclusion tip.
 

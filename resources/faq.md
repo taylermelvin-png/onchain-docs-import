@@ -27,15 +27,15 @@ The terminal is available in most countries, but certain products are restricted
 It depends on the product:
 
 * **Swap and Trenches** — 0.50% per trade. Trenches trades also carry the launchpad's own protocol fee, included in the quoted price.
-* **Spot** — buys are free; sells pay 0.25% maker / 0.35% taker.
+* **Spot** — no onchain.cc fee on buys; sells pay 0.25% maker / 0.35% taker, on top of Hyperliquid's own spot fee.
 * **Perps** — Hyperliquid's volume-tiered maker/taker fee plus a 0.05% Onchain service fee, shown combined in the order panel.
-* **Predictions** — 0.50% per order, capped on low-priced shares.
+* **Predictions** — 0.50% per order, plus Polymarket's own taker fee on markets where it charges one.
 
-And on all of it: **25–50% of every fee comes back to you as [cashback](../colosseum/cashback.md)**, set by your Colosseum rank and claimable in USDC. Network gas applies to on-chain trades (Swap/Trenches) and is sponsored on most EVM chains.
+And on all of it: **25–50% of the onchain.cc fee comes back to you as [cashback](../colosseum/cashback.md)**, set by your Colosseum rank and claimable in USDC. Hyperliquid's own fee on perps and spot is not included. Network gas applies to on-chain trades (Swap/Trenches) and is sponsored on most EVM chains.
 
 ### How does cashback work?
 
-Every fee you pay accrues cashback at your rank's rate (25% at Recruit up to 50% at Immortal), into weekly buckets you claim from the Cashback panel — minimum claim $1, paid on-chain in seconds. **Claim regularly: buckets expire 14 days after their week closes (30 days at Warlord and Immortal)**, and accrual pauses if you go 60 days without trading. Full detail: [Cashback](../colosseum/cashback.md).
+Every onchain.cc fee you pay accrues cashback at your rank's rate (25% at Recruit up to 50% at Immortal), into weekly buckets you claim from the Cashback panel — minimum claim $1, paid on-chain in seconds. **Claim regularly: buckets expire 14 days after their week closes (30 days at Warlord and Immortal)**, and accrual pauses if you go 60 days without trading. Full detail: [Cashback](../colosseum/cashback.md).
 
 ### Do I need a chain's native token to trade?
 

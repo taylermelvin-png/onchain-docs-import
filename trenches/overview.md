@@ -47,7 +47,7 @@ Trenches covers **Solana** — the three launchpads above — and **Robinhood Ch
 
 ## Fees
 
-Trenches trades pay the same platform fee as [Swap](../swap/fees.md) — **0.50%**, with **25–50% of it returned as [cashback](../colosseum/cashback.md)** by Colosseum rank. Trenches also earns rank points at the highest rate on the terminal (0.75 per $1 traded). Launchpads charge their own protocol fees on bonding-curve trades, which are part of the quoted price, and standard Solana gas and priority fees apply.
+Trenches trades pay the same onchain.cc fee as [Swap](../swap/fees.md) — **0.50%**, with **25–50% of it returned as [cashback](../colosseum/cashback.md)** by Colosseum rank. Trenches also earns rank points at the highest rate on the terminal (0.75 per $1 traded). Launchpads charge their own protocol fees on bonding-curve trades, which are part of the quoted price, and standard Solana gas and priority fees apply.
 
 ***
 

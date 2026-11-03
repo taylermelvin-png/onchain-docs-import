@@ -1,6 +1,6 @@
 # Cashback
 
-Every trading fee on onchain.cc pays you back. A percentage of every fee you pay — on swaps, Trenches, Spot, Perps, and Predictions — accrues as **USDC cashback**, set by your [Colosseum rank](ranks.md) and claimable straight to your wallet.
+The onchain.cc fee pays you back. A percentage of the onchain.cc fee you pay — on swaps, Trenches, Spot, Perps, and Predictions — accrues as **USDC cashback**, set by your [Colosseum rank](ranks.md) and claimable straight to your wallet.
 
 <!-- 📸 SCREENSHOT NEEDED: Cashback panel in the terminal — buckets, live tick, Claim button -->
 
@@ -19,7 +19,7 @@ Cashback rates climb with rank:
 | Warlord | 45% |
 | Immortal | 50% |
 
-From your very first trade, a quarter of every fee comes back. At Immortal, half. Your current rate is always shown on the Colosseum dashboard.
+From your very first trade, a quarter of the onchain.cc fee comes back. At Immortal, half. On Perps and Spot, Hyperliquid's own fee is not included. Your current rate is always shown on the Colosseum dashboard.
 
 Two standing bonuses worth knowing:
 

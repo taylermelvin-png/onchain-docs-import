@@ -2,7 +2,7 @@
 
 ## One fee, and it pays you back
 
-onchain.cc charges **0.50%** per swap — and **25% to 50% of every fee comes back to you as [cashback](../colosseum/cashback.md)**, set by your Colosseum rank and claimable in USDC. The same fee and cashback apply to [Trenches](../trenches/trading.md) trades.
+onchain.cc charges **0.50%** per swap — and **25% to 50% of that fee comes back to you as [cashback](../colosseum/cashback.md)**, set by your Colosseum rank and claimable in USDC. The same fee and cashback apply to [Trenches](../trenches/trading.md) trades.
 
 | Rank | Cashback | Net cost of a 0.50% fee |
 | --- | --- | --- |
@@ -15,17 +15,13 @@ onchain.cc charges **0.50%** per swap — and **25% to 50% of every fee comes ba
 
 The fee is shown in the swap panel before you confirm, and each trade's cashback lands in your Cashback panel live — see [Cashback](../colosseum/cashback.md) for how accrual, claiming, and expiry work. Traders active before the September 2026 restructure are automatically grandfathered onto a better cashback ladder that preserves their previous net rates.
 
-{% hint style="info" %}
-Most competing terminals charge around 1% per trade with nothing back. Counted net of cashback, onchain.cc remains among the cheapest ways to trade on any terminal — and the more you climb, the wider the gap gets.
-{% endhint %}
-
 ***
 
 ## Network fees (gas)
 
 Every on-chain transaction also carries the network's own gas fee — paid to the chain, not to onchain.cc.
 
-* **Sponsored on most EVM chains** — Base, Arbitrum, Optimism, Polygon, Linea, Scroll, Gnosis, Berachain, and Robinhood swaps don't need you to hold the native token.
+* **Sponsored on most EVM chains** — Base, Arbitrum, Optimism, Polygon, Linea, Scroll, Gnosis, Berachain, Robinhood, and Arc swaps don't need you to hold the native token.
 * **Solana, Ethereum, and BNB** — keep a small native-token balance (fractions of a cent per transaction on Solana; more on Ethereum mainnet).
 
 ***
@@ -34,7 +30,7 @@ Every on-chain transaction also carries the network's own gas fee — paid to th
 
 | Fee type | Amount | Notes |
 | --- | --- | --- |
-| Platform fee | 0.50% per swap | 25–50% returned as cashback by rank |
+| onchain.cc fee | 0.50% per swap | 25–50% returned as cashback by rank |
 | Network gas | Variable by chain | Sponsored on most EVM chains |
 
 {% hint style="info" %}

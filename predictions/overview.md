@@ -52,7 +52,7 @@ Each market page gives you the full trading picture:
 | Minimum deposit | $2 |
 | Order types | Market and limit |
 | Payout | $1.00 per winning share, claimable after resolution |
-| Fees | 0.50% per order (capped on low-priced shares), shown before you confirm — with 25–50% back as [cashback](../colosseum/cashback.md) |
+| Fees | 0.50% onchain.cc fee per order, plus Polymarket's own taker fee on markets where it charges one, shown before you confirm — [cashback](../colosseum/cashback.md) applies |
 
 ***
 

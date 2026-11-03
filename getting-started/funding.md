@@ -48,7 +48,7 @@ You can fund from any supported chain — the terminal routes and bridges automa
 
 ## Gas fees
 
-Trades on Swap and Trenches settle on-chain, so the network charges a small gas fee in the chain's native token (SOL on Solana, ETH on Ethereum, and so on) — separate from any platform fee.
+Trades on Swap and Trenches settle on-chain, so the network charges a small gas fee in the chain's native token (SOL on Solana, ETH on Ethereum, and so on) — separate from the onchain.cc fee.
 
 * On most supported EVM chains, **gas is sponsored** — you can trade without holding the native token.
 * On **Solana, Ethereum, and BNB**, keep a small native-token balance for gas or transactions will fail. On Solana a few thousandths of a SOL covers a trade; hold a little more than you think you need.
